@@ -10,6 +10,36 @@
 \contentsline {section}{\numberline {1.8}Acceso de estudiantes al PC}{6}{section.1.8}%
 \contentsline {section}{\numberline {1.9}Estructura carpeta de evidencias}{6}{section.1.9}%
 \contentsline {section}{\numberline {1.10}Actividades inicio de año escolar}{7}{section.1.10}%
-\contentsline {chapter}{\numberline {2}Descargas}{9}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Institucional}{9}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Proyecto de grado}{9}{section.2.2}%
+\contentsline {chapter}{\numberline {2}Reglas del aula}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}PRØHIBICIONES}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.2}¿Qué pasa si se incumplen las reglas?}{11}{section.2.2}%
+\contentsline {section}{\numberline {2.3}¿Qué pasa si el incumplimiento es reiterativo?}{11}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Lógica computacional 8}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Periodo 01}{13}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Contenidos}{13}{subsection.3.1.1}%
+\contentsline {subsubsection}{Guía 01: lógica computacional}{13}{subsubsection*.3}%
+\contentsline {paragraph}{Mensaje del autor}{14}{paragraph*.4}%
+\contentsline {paragraph}{A00: Introducción (+0,1)}{14}{paragraph*.5}%
+\contentsline {paragraph}{A01: Concepto de hardware (+0,1)}{15}{paragraph*.6}%
+\contentsline {paragraph}{A02: La CPU (+0,1)}{15}{paragraph*.7}%
+\contentsline {paragraph}{A03: Memoria RAM (+0,1)}{16}{paragraph*.8}%
+\contentsline {paragraph}{A04: CPU and RAM (+0,5)}{17}{paragraph*.9}%
+\contentsline {paragraph}{A05: Software (+0,2)}{17}{paragraph*.10}%
+\contentsline {paragraph}{A06: Sistema computacional (+0,1)}{19}{paragraph*.11}%
+\contentsline {paragraph}{A07: Ejemplos sistemas computacionales (+0,5)}{20}{paragraph*.12}%
+\contentsline {paragraph}{A08: Informática (+0,1)}{20}{paragraph*.13}%
+\contentsline {paragraph}{A09: Razonamiento y lógica (+0,1)}{21}{paragraph*.14}%
+\contentsline {paragraph}{A10: Lógica computacional (+0,1)}{22}{paragraph*.15}%
+\contentsline {paragraph}{A11: Examen final (+3,0)}{23}{paragraph*.16}%
+\contentsline {subsubsection}{Plan de refuerzo 01}{24}{subsubsection*.17}%
+\contentsline {paragraph}{Hardware}{24}{paragraph*.18}%
+\contentsline {paragraph}{Software}{24}{paragraph*.19}%
+\contentsline {paragraph}{Sistema computacional}{24}{paragraph*.20}%
+\contentsline {paragraph}{Informática}{24}{paragraph*.21}%
+\contentsline {paragraph}{Razonar}{25}{paragraph*.22}%
+\contentsline {paragraph}{Lógica}{25}{paragraph*.23}%
+\contentsline {paragraph}{Lógica computacional}{25}{paragraph*.24}%
+\contentsline {section}{\numberline {3.2}Recursos}{25}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Descargas}{27}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Institucional}{27}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Proyecto de grado}{27}{section.4.2}%

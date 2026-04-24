@@ -34,11 +34,16 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 language = 'es'
 
-latex_engine = "lualatex"
+# -- Options for LaTeX output ------------------------------------------------
+
+latex_engine = "xelatex"
 latex_logo = "./_static/logo_light.png"
 latex_documents = [
     ('index', 'aula115.tex', 'Repositorio didáctico para el estudiante', 'Julian Camilo Fonseca Romero', 'manual'),
 ]
+text_add_secnumbers = False
+latex_use_latex_multicolumn = True
+latex_table_style = ['borderless', 'colorrows']
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output

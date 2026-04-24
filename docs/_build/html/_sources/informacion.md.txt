@@ -72,13 +72,11 @@ Si los estudiantes también puede acceder al **portal web** por medio de la INTR
 La siguiente tabla muestra los **límites de almacenamiento** de la cuenta institucional que cada integrante tiene (según su rol) en la [Institución Educativa John F. Kennedy](https://www.jfkennedy.edu.co).
 
 :::{table}
-
  rol | ACTIVO | EGRESADO | RETIRADO | PENSIONADO
 -|-|-|-|-
 **ADMINISTRATIVO** | 1TB | **N/A** | 16GB | 16GB
 **DOCENTE** | 256GB | **N/A** | 16GB | 16GB
 **ESTUDIANTE** | 16GB | 16GB | {guilabel}`X` | **N/A**
-
 :::
 
 {guilabel}`X` = Suspensión de la cuenta

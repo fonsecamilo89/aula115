@@ -6,17 +6,21 @@
 :::
 
 :::{list-table}
-* - ```{figure} ./recursos/camilo.fonseca.png
-    :width: 180
-    :align: left
+:class: none
+* - ```{list-table}
+    * - :::{figure} ./recursos/camilo.fonseca.png
+        :width: 180
+        :::
     ```
-  - **DOCENTE:** Julian Camilo Fonseca Romero
+  - ```{list-table}
+    * - **DOCENTE:** Julian Camilo Fonseca Romero
 
-    **email:** camilo.fonseca@jfkennedy.edu.co
+        **email:** camilo.fonseca@jfkennedy.edu.co
 
-    - Ingeniero en Mecatrónica (2012)
-    - Especialista en Seguridad de la Información (2015)
-    - Magister en Ingeniería de Software y Sistemas Informáticos (2017)
+        - Ingeniero en Mecatrónica (2012)
+        - Especialista en Seguridad de la Información (2015)
+        - Magister en Ingeniería de Software y Sistemas Informáticos (2017)
+    ```
 :::
 
 :::{admonition} MODELO PEDAGÓGICO: Activo
@@ -40,13 +44,15 @@ $$
 :hidden:
 
 informacion.md
-descargas.md
+reglas.md
 :::
 
 :::{toctree}
 :maxdepth: 2
 :hidden:
 :caption: CURSOS
+
+cursos/logica8/index.md
 
 :::
 
@@ -57,3 +63,10 @@ descargas.md
 
 :::
 
+:::{toctree}
+:maxdepth: 2
+:hidden:
+:caption: ANEXOS
+
+descargas.md
+:::
