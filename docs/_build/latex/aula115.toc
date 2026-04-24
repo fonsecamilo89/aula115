@@ -1,0 +1,15 @@
+\xpg@aux {}{spanish}
+\contentsline {chapter}{\numberline {1}Información}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Útiles escolares}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Porcentaje de notas \%}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Equivalencia calificación INSTRUIMOS}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Sello docente ®}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.5}@cceso al portal dentro y fuera del aula}{4}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Modelo de almacenamiento Google WorkSpace}{5}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Acceso al aula 115 en contrajornada}{5}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Acceso de estudiantes al PC}{6}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Estructura carpeta de evidencias}{6}{section.1.9}%
+\contentsline {section}{\numberline {1.10}Actividades inicio de año escolar}{7}{section.1.10}%
+\contentsline {chapter}{\numberline {2}Descargas}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Institucional}{9}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Proyecto de grado}{9}{section.2.2}%
