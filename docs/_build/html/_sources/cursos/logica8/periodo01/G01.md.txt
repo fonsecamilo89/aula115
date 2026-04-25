@@ -36,9 +36,9 @@
 - Cumplimiento de las reglas del aula.
 ```
 
-```{tab-item} Recursos (0)
+```{tab-item} Recursos (1)
 
-> La presente guía no contiene recursos.
+- [TEXTO: Concepto lógica computacional](../recursos/T01.md)
 
 ```
 :::
@@ -63,113 +63,44 @@
 ## A01: Concepto de hardware (+0,1)
 {bdg-info}`Estructuración`
 
-1. LEA la siguiente definición:
-
-:::{admonition} CONCEPTO DE HARDWARE
-:class: tip
-El **HARDWARE**, es el conjunto de componentes de un **sistema informático** (por ejemplo un computador) los cuales se pueden ver o tocar.
-
-Estos componentes se clasifican en componentes de entrada, salida, procesamiento, memoria y almacenamiento.
-
-A continuación se muestran algunos ejemplos:
-
-- **Dispositivos de entrada:** Teclados, mouse, micrófonos
-- **Dispositivos de salida:** Monitores, impresoras, bafles
-- **Procesamiento:** CPU
-- **Memoria:** memoria RAM, memoria CACHE
-- **Almacenamiento:** Discos duros, memorias USB
-:::
-
-2. Acorde a la definición **CONCEPTO DE HARDWARE**, en su cuaderno RESPONDA las siguientes preguntas:
+1. En su cuaderno RESPONDA las siguientes preguntas:
 
     - ¿Qué es el hardware?
     - ¿De que se compone el hardware de un sistema informático?
     - ¿El concepto de hardware solo puede aplicarse a computadores? ¿Por qué?
 
-3. En su cuaderno CREE un **mapa conceptual** que muestre los diferentes componentes del hardware y dos ejemplos por cada componente.
+2. En su cuaderno CREE un **mapa conceptual** que muestre los diferentes componentes del hardware y dos ejemplos por cada componente.
 
 ---
 ## A02: La CPU (+0,1)
 {bdg-info}`Estructuración`
 
-1. LEA la siguiente definición:
-
-:::{admonition} CONCEPTO DE CPU
-:class: tip
-
-```{figure} ./recursos/image01.png
-:align: center
-:width: 300
-Modelo de CPU 
-```
-
-La CPU es considerada el "cerebro" del computador. Es el elemento principal que se encarga de:
-
-- Procesar todas las instrucciones y cálculos del sistema
-- Coordinar el funcionamiento de los demás componentes
-- Ejecutar los programas y aplicaciones
-
-La CPU está compuesta principalmente por:
-
-- **Unidad de control**: Coordina y dirige todas las operaciones.
-- **ALU**: Unidad Lógica Aritmética. Realiza cálculos matemáticos y operaciones lógicas
-- **Registros**: Son unidades pequeñas de memoria de alta velocidad
-
-La velocidad de la CPU se mide en Hertz (Hz) y determina qué tan rápido puede procesar las instrucciones. A mayor velocidad, mejor rendimiento del sistema.
-
-:::
-
-2. Acorde a la definición **CONCEPTO DE CPU**, en su cuaderno RESPONDA las siguientes preguntas:
+1. En su cuaderno RESPONDA las siguientes preguntas:
 
     - ¿Qué es la CPU?
     - ¿Por qué la CPU es considerada el cerebro del computador?
     - ¿En que se mide la velocidad de las CPUs?
     - ¿Qué significa que una velocidad en la CPU sea alta o baja?
 
-3. En su cuaderno CREE un **mapa conceptual** de los tres principales componentes de la CPU y descríbalos.
+2. En su cuaderno CREE un **mapa conceptual** de los tres principales componentes de la CPU y descríbalos.
 
-4. En INTERNET, CONSULTE 3 marcas de fabricantes de CPU y descríbalas en su cuaderno.
+3. En INTERNET, CONSULTE 3 marcas de fabricantes de CPU y descríbalas en su cuaderno.
 
 ---
 ## A03: Memoria RAM (+0,1)
 {bdg-info}`Estructuración`
 
-1. LEA la siguiente definición:
-
-:::{admonition} CONCEPTO DE MEMORIA RAM
-:class: tip
-
-```{figure} ./recursos/image02.png
-:align: center
-:width: 300
-Modelo de memoria RAM 
-```
-
-La memoria RAM (Memoria de acceso aleatorio) tiene las siguientes funciones:
-
-- ALMACENA temporalmente los datos y programas que el computador está usando activamente.
-- ACCEDE rápidamente a la información (SI y SOLO SI el equipo está encendido).
-
-Las características de la memoria RAM son:
-
-- Se borra cuando se apaga el computador (memoria volátil).
-- A mayor cantidad de RAM, más programas pueden ejecutarse simultáneamente.
-- Su velocidad afecta directamente el rendimiento del sistema.
-- Es diferente al almacenamiento permanente (disco duro) porque la memoria RAM es temporal.
-
-:::
-
-2. Acorde a la definición **CONCEPTO DE MEMORIA RAM**, en su cuaderno responda las siguientes preguntas:
+1. Acorde a la definición **CONCEPTO DE MEMORIA RAM**, en su cuaderno responda las siguientes preguntas:
 
     - ¿Qué es la memoria RAM?
     - ¿De que se encarga la memoria RAM?
     - ¿Por qué la memoria RAM es tan importante al momento de procesar la información?
     - ¿Cuales son las características de la memoria RAM?
 
-3. En Internet, CONSULTE las diferentes generaciones que han tenido las memorias RAM y con esta información en su cuaderno CREE un mapa conceptual.
+2. En Internet, CONSULTE las diferentes generaciones que han tenido las memorias RAM y con esta información en su cuaderno CREE un mapa conceptual.
 
 ---
-## A04: CPU and RAM (+0,5)
+## A04: CPU & RAM (+0,5)
 {bdg-danger}`Transferencia`
 
 1. Con los temas vistos hasta ahora, en **UNA PÁGINA DE CUADERNO**, con sus palabras (no usar IA) RESPONDA la siguiente pregunta:
@@ -180,39 +111,19 @@ Las características de la memoria RAM son:
 ## A05: Software (+0,2)
 {bdg-info}`Estructuración`
 
-1. LEA la siguiente definición:
-
-:::{admonition} CONCEPTO DE SOFTWARE
-:class: tip
-
-```{figure} ./recursos/image03.png
-:align: center
-:width: 300
-Ejemplo de interfaz gráfica
-```
-El SOFTWARE, es el conjunto de: **programas**, **bases de datos**, diferentes tipos de **archivos** y **documentación** que le dicen al HARDWARE qué hacer. A diferencia del hardware que es físico y tangible, el software no se puede tocar.
-
-El software solo puede verse su funcionamiento en la pantalla. El software es la parte lógica e intangible de un sistema informático. El software se clasifica de la siguiente manera:
-
-- **Sistema:** Software que controla el funcionamiento básico del computador como por ejemplo: Firmware BIOS, Firmware UEFI, OS Windows, OS Linux, MacOS, Controladores o Drivers.
-- **Aplicaciones:** Diferente software que funciona sobre un sistema operativo como por ejemplo: Procesadores de texto, navegadores web, juegos, editores de imagen, modelado en 3D. La mayoría suelen tener interfáz gráfica.
-
-Una **interfaz gráfica** es un sistema que permite a los usuarios interactuar con dispositivos electrónicos a través de elementos visuales en la pantalla, como iconos, botones y menús. Esto facilita la realización de acciones sin necesidad de conocimientos de programación, haciendo la experiencia más intuitiva y accesible.
-:::
-
-2. Acorde a la definición **CONCEPTO DE SOFTWARE**, en su cuaderno RESPONDA las siguientes preguntas:
+1. En su cuaderno RESPONDA las siguientes preguntas:
     - ¿Qué es el software?
     - ¿En qué se diferencian el HARDWARE y el SOFTWARE?
     - ¿Por qué los controladores de HARDWARE no necesitan interfaz gráfica?
 
-3. En su cuaderno, CREE un mapa conceptual de la clasificación del software.
+2. En su cuaderno, CREE un mapa conceptual que presente la **clasificación del software**.
 
-4. CONSULTE en Internet y luego realice una descripción en su cuaderno de lo siguiente:
-    - 2 ejemplos de sistemas operativos de la empresa MICROSOFT.
-    - 1 ejemplo de sistema operativo de la empresa GOOGLE.
-    - 3 ejemplos de sistemas operativo de la empresa APPLE.
+3. CONSULTE en Internet y luego en su cuaderno REALICE una descripción de lo siguiente:
+    - 10 sistemas operativos de la empresa MICROSOFT.
+    - 1 sistema operativo de la empresa GOOGLE.
+    - 3 sistemas operativos de la empresa APPLE.
 
-5. En Internet, CONSULTE dos ejemplos para cada una de las siguientes aplicaciones, luego descríbalas en su cuaderno:
+4. En Internet, CONSULTE dos ejemplos para cada una de las siguientes aplicaciones, luego descríbalas en su cuaderno:
     - Procesadores de texto
     - Navegadores web
     - Videojuegos
@@ -223,20 +134,8 @@ Una **interfaz gráfica** es un sistema que permite a los usuarios interactuar c
 ## A06: Sistema computacional (+0,1)
 {bdg-info}`Estructuración`
 
-1. LEA la siguiente definición:
+1. En su cuaderno RESPONDA las siguientes preguntas:
 
-:::{admonition} CONCEPTO DE SISTEMA COMPUTACIONAL
-:class: tip
-Un **sistema computacional** es el conjunto de hardware que interactúa con un software para almacenar, procesar y mostrar información.
-
-```{figure} ./recursos/image04.png
-:align: center
-:width: 300
-Computadora 
-```
-:::
-
-2. Acorde a la definición: **CONCEPTO DE SISTEMA COMPUTACIONAL**, en su cuaderno RESPONDA las siguientes preguntas:
     - ¿Qué es un sistema computacional?
     - ¿De qué manera un hardware interactúa con un software? (piense en un smartphone, un smart-TV, etc.)
     - ¿Cómo un sistema computacional interactúa con la información? (piense en un software como Microsoft EXCEL o WHATSAPP)
@@ -245,7 +144,7 @@ Computadora
 ## A07: Ejemplos sistemas computacionales (+0,5)
 {bdg-danger}`Transferencia`
 
-1. En su cuaderno, con sus palabras ESCRIBA 5 ejemplos de sistemas computacionales (No usar IA). Tenga en cuenta el siguiente ejemplo:
+1. En su cuaderno, con sus palabras ESCRIBA 5 ejemplos de sistemas computacionales (no usar IA). Tenga en cuenta el siguiente ejemplo:
 
     > **EJEMPLO 01**: Un *portátil* es un ejemplo de **sistema computacional** porque su *hardware* (teclado, pantalla, touchpad) y *software* (OS, aplicaciones de escritorio) permite registrar, almacenar y mostrar información para un usuario”.
 
@@ -253,26 +152,12 @@ Computadora
 ## A08: Informática (+0,1)
 {bdg-info}`Estructuración`
 
-1. LEA la siguiente definición:
-
-:::{admonition} CONCEPTO DE INFORMÁTICA
-:class: tip
-**La informática** es la ciencia o disciplina que estudia el diseño, construcción e implementación de **sistemas computacionales** para garantizar la **integridad** y **disponibilidad** de la información.
-
-- REGLA 01: (Integridad de la información)
-    > *“Toda información debe conservar su integridad para que no pueda ser modifica sin autorización”*
-    > 
-- REGLA 02: (Disponibilidad de la información)
-    > *“Toda información debe estar disponible y llegar oportunamente”.*
-    >
-:::
-
-2. Acorde a la definición: **CONCEPTO DE INFORMÁTICA**, RESPONDA las siguientes preguntas en su cuaderno:
+1. RESPONDA las siguientes preguntas en su cuaderno:
 
     - ¿En que se relacionan la informática y la información?
     - Aparte de la **integridad** y **disponibilidad**, ¿Qué otras reglas pueden ser aplicadas en la información?
 
-3. En su cuaderno, ESCRIBA los siguientes casos y por cada uno indique si aplica la regla 01 (*Integridad de la información*) o aplica la regla 02 (*disponibilidad de la información*) (escribir el por qué)
+2. En su cuaderno, ESCRIBA los siguientes casos y por cada uno indique si aplica la regla 01 (*Integridad de la información*) o aplica la regla 02 (*disponibilidad de la información*) (escribir el por qué)
 
     - **CASO 01**: *“De nada sirve que un banco entregue el valor de un saldo 10 meses después de ser solicitado. Es por eso que se usan las computadoras, porque permiten que la información este disponible y llegue oportunamente (milésimas de segundo)”*.
 
@@ -281,7 +166,7 @@ Computadora
 
 :::{list-table}
 :header-rows: 0
-* - ```{figure} ./recursos/image05.png
+* - ```{figure} ./recursos/image01.png
     :align: center
     :width: 300
     **BANCOS:** Los bancos deben garantizar integridad y disponibilidad
@@ -292,43 +177,14 @@ Computadora
 ## A09: Razonamiento y lógica (+0,1)
 {bdg-info}`Estructuración`
 
-1. LEA las siguientes definiciones:
+1. En su cuaderno RESPONDA las siguientes preguntas:
 
-:::{admonition} CONCEPTO DE RAZONAR
-:class: tip
-
-**Razonar** es la *actividad mental* mediante la cual se relacionan ideas o premisas para inferir una conclusión de manera coherente o justificada.
-
-Por ejemplo:
-
-- Premisa 01: Todos los humanos son mortales
-- Premisa 02: Sócrates es humano
-- **Conclusión:** Sócrates es mortal
-:::
-
-:::{admonition} CONCEPTO DE LÓGICA
-:class: tip
-
-La **lógica** es la *disciplina* que permite analizar y verificar la validez de los razonamientos, determinando si una conclusión se deriva correctamente de unas premisas.
-
-Por ejemplo:
-
-Para el siguiente razonamiento, verifique si es correcto o no:
-
-> - Premisa 01: Todos los humanos son mortales
-> - Premisa 02: Sócrates es humano
-> - **Conclusión:** Sócrates es mortal
-
-> **ANÁLISIS:** Si Sócrates es un ser humano, entonces Sócrates es mortal porque todos los humanos son mortales. El razonamiento es correcto.
-:::
-
-2. Acorde a las definiciones: **CONCEPTO DE RAZONAR** y **CONCEPTO DE LÓGICA**, en su cuaderno RESPONDA las siguientes preguntas:
     - ¿Qué es razonar?
     - ¿Qué es lógica?
     - ¿Cómo se relacionan los conceptos de razonar y lógica?
     - ¿Se podrían comprobar resultados de razonamiento sin aplicar lógica? (explique su respuesta)
 
-3. RAZONE la siguiente situación y en su cuaderno DEDUZCA que pudo haber pasado (3 conclusiones con temáticas diferentes):
+2. RAZONE la siguiente situación y en su cuaderno DEDUZCA que pudo haber pasado (3 conclusiones con temáticas diferentes):
 
     > - Premisa 01: Una persona escuchó ruidos extraños en su casa.
     > - Premisa 02: Los ruidos fueron en horas de la noche.
@@ -343,28 +199,17 @@ Para el siguiente razonamiento, verifique si es correcto o no:
 ## A10: Lógica computacional (+0,1)
 {bdg-info}`Estructuración`
 
-1. LEA las siguientes definiciones:
-
-:::{admonition} CONCEPTO DE ALGORITMO
-:class: tip
-Un **algoritmo** es una serie de pasos ordenados y finitos que se ejecutan para resolver un problema.
-:::
-
-:::{admonition} CONCEPTO DE LÓGICA COMPUTACIONAL
-:class: tip
-La **lógica computacional** es el área de la **informática** que aplica principios de la **lógica** para representar, analizar y automatizar el **razonamiento**, permitiendo resolver problemas mediante **algoritmos**.
-:::
-
-2. Acorde a las definiciones: **CONCEPTO DE LÓGICA COMPUTACIONAL** y **CONCEPTO DE ALGORITMO**, en su cuaderno RESPONDA las siguientes preguntas:
+1. En su cuaderno RESPONDA las siguientes preguntas:
 
     - ¿Qué es un algoritmo?
     - ¿Qué es lógica computacional?
     - ¿Cómo se relaciona la lógica computacional y la informática?
     - ¿Cómo se relacionan los algoritmos y la lógica computacional?
 
-3. En su cuaderno ESCRIBA las siguientes frases e indique si es FALSO, VERDADERO y explique el por qué:
+2. En su cuaderno ESCRIBA las siguientes frases e indique si es FALSO, VERDADERO y explique el por qué:
 
     - “*La **lógica computacional** establece las reglas para programar una persona y modificar su comportamiento*”. __
+
     - “*Optimizar **algoritmos** permite solucionar problemas más rápido pero con los mismos recursos*”. __
 
 

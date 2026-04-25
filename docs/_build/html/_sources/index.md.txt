@@ -53,14 +53,15 @@ reglas.md
 :caption: CURSOS
 
 cursos/logica8/index.md
+cursos/informatica10/index.md
 
 :::
 
 :::{toctree}
 :maxdepth: 2
 :hidden:
-:caption: GESTIÓN
 
+referencias.md
 :::
 
 :::{toctree}

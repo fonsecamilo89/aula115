@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.3.22)  24 APR 2026 12:24
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.3.22)  25 APR 2026 16:25
  restricted system commands enabled.
 **aula115.tex
 (./aula115.tex
@@ -1040,13 +1040,13 @@ Package hyperref Info: Link coloring ON on input line 94.
 Package polyglossia Info: totalhyphenmin:'5'
 
 Package hyperref Info: Option `pageanchor' set `false' on input line 97.
-<logo_light.png, id=180, 602.25pt x 173.14688pt>
+<logo_light.png, id=337, 150.5625pt x 75.28125pt>
 LaTeX Font Info:    Font shape `TU/FreeMono(0)/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 97.
 File: logo_light.png Graphic file (type png)
 <use logo_light.png>
 Package luatex.def Info: logo_light.png  used on input line 97.
-(luatex.def)             Requested size: 469.77148pt x 135.05666pt.
+(luatex.def)             Requested size: 150.56212pt x 75.28105pt.
 <<oml.cmap>><<oms.cmap>><<omx.cmap>>
 LaTeX Font Info:    Trying to load font information for U+msa on input line 97.
 
@@ -1079,12 +1079,12 @@ Package polyglossia Info: totalhyphenmin:'5'
 ] [2
 
 ]
-<aula115.png, id=229, 963.6pt x 295.1025pt>
+<aula115.png, id=390, 963.6pt x 295.1025pt>
 File: aula115.png Graphic file (type png)
 <use aula115.png>
 Package luatex.def Info: aula115.png  used on input line 105.
 (luatex.def)             Requested size: 469.75679pt x 143.863pt.
-<camilo.fonseca.png, id=231, 371.13657pt x 368.87813pt>
+<camilo.fonseca.png, id=392, 371.13657pt x 368.87813pt>
 File: camilo.fonseca.png Graphic file (type png)
 <use camilo.fonseca.png>
 Package luatex.def Info: camilo.fonseca.png  used on input line 135.
@@ -1098,7 +1098,7 @@ Package luatex.def Info: camilo.fonseca.png  used on input line 135.
 ]
 Capítulo 1.
 [3]
-<sello.png, id=255, 963.6pt x 373.395pt>
+<sello.png, id=416, 963.6pt x 373.395pt>
 File: sello.png Graphic file (type png)
 <use sello.png>
 Package luatex.def Info: sello.png  used on input line 403.
@@ -1113,34 +1113,34 @@ LaTeX Font Info:    Font shape `TU/FreeMono(0)/m/n' will be
 LaTeX Font Info:    Font shape `TU/FreeMono(0)/b/n' will be
 (Font)              scaled to size 8.99994pt on input line 569.
  [5]
-<image011.png, id=271, 176.66pt x 344.28625pt>
-File: image011.png Graphic file (type png)
-<use image011.png>
-Package luatex.def Info: image011.png  used on input line 625.
+<image013.png, id=432, 176.66pt x 344.28625pt>
+File: image013.png Graphic file (type png)
+<use image013.png>
+Package luatex.def Info: image013.png  used on input line 625.
 (luatex.def)             Requested size: 150.56152pt x 293.42744pt.
-File: image011.png Graphic file (type png)
-<use image011.png>
-Package luatex.def Info: image011.png  used on input line 625.
+File: image013.png Graphic file (type png)
+<use image013.png>
+Package luatex.def Info: image013.png  used on input line 625.
 (luatex.def)             Requested size: 150.56152pt x 293.42744pt.
- [6] [7<./image011.png>] [8
+ [6] [7<./image013.png>] [8
 
 ]
 Capítulo 2.
 [9] [10]
-<image021.png, id=305, 659.46375pt x 657.95813pt>
-File: image021.png Graphic file (type png)
-<use image021.png>
-Package luatex.def Info: image021.png  used on input line 1024.
+<image022.png, id=466, 659.46375pt x 657.95813pt>
+File: image022.png Graphic file (type png)
+<use image022.png>
+Package luatex.def Info: image022.png  used on input line 1024.
 (luatex.def)             Requested size: 225.84229pt x 225.32922pt.
-File: image021.png Graphic file (type png)
-<use image021.png>
-Package luatex.def Info: image021.png  used on input line 1024.
+File: image022.png Graphic file (type png)
+<use image022.png>
+Package luatex.def Info: image022.png  used on input line 1024.
 (luatex.def)             Requested size: 225.84229pt x 225.32922pt.
- [11<./image021.png>] [12
+ [11<./image022.png>] [12
 
 ]
 Capítulo 3.
-<escudo.png, id=316, 376.40625pt x 376.40625pt>
+<escudo.png, id=477, 376.40625pt x 376.40625pt>
 File: escudo.png Graphic file (type png)
 <use escudo.png>
 Package luatex.def Info: escudo.png  used on input line 1083.
@@ -1149,68 +1149,270 @@ File: escudo.png Graphic file (type png)
 <use escudo.png>
 Package luatex.def Info: escudo.png  used on input line 1083.
 (luatex.def)             Requested size: 140.42256pt x 140.42256pt.
-[13<./escudo.png>] [14]
-<image01.png, id=329, 256.70906pt x 142.28156pt>
-File: image01.png Graphic file (type png)
-<use image01.png>
-Package luatex.def Info: image01.png  used on input line 1345.
-(luatex.def)             Requested size: 225.84229pt x 125.17558pt.
- [15<./image01.png>]
-<image02.png, id=340, 259.7203pt x 172.39406pt>
-File: image02.png Graphic file (type png)
-<use image02.png>
-Package luatex.def Info: image02.png  used on input line 1443.
-(luatex.def)             Requested size: 225.84229pt x 149.90532pt.
- [16<./image02.png>]
-<image03.png, id=351, 770.88pt x 770.88pt>
-File: image03.png Graphic file (type png)
-<use image03.png>
-Package luatex.def Info: image03.png  used on input line 1557.
-(luatex.def)             Requested size: 225.84229pt x 225.8432pt.
-
-Underfull \vbox (badness 3668) detected at line 1578
+[13<./escudo.png>] [14] [15] [16]
+<image011.png, id=514, 630.85687pt x 591.71063pt>
+File: image011.png Graphic file (type png)
+<use image011.png>
+Package luatex.def Info: image011.png  used on input line 1574.
+(luatex.def)             Requested size: 225.84229pt x 211.82387pt.
+File: image011.png Graphic file (type png)
+<use image011.png>
+Package luatex.def Info: image011.png  used on input line 1574.
+(luatex.def)             Requested size: 225.84229pt x 211.82387pt.
+ [17<./image011.png>] [18] [19] [20]
+Overfull \hbox (5.36949pt too wide) detected at line 1966
+[]
  []
 
-[17] [18<./image03.png>]
-<image04.png, id=370, 676.02562pt x 614.295pt>
-File: image04.png Graphic file (type png)
-<use image04.png>
-Package luatex.def Info: image04.png  used on input line 1676.
+<image012.png, id=561, 256.70906pt x 142.28156pt>
+File: image012.png Graphic file (type png)
+<use image012.png>
+Package luatex.def Info: image012.png  used on input line 2032.
+(luatex.def)             Requested size: 225.84229pt x 125.17558pt.
+File: image012.png Graphic file (type png)
+<use image012.png>
+Package luatex.def Info: image012.png  used on input line 2032.
+(luatex.def)             Requested size: 225.84229pt x 125.17558pt.
+[21]
+<image021.png, id=570, 259.7203pt x 172.39406pt>
+File: image021.png Graphic file (type png)
+<use image021.png>
+Package luatex.def Info: image021.png  used on input line 2100.
+(luatex.def)             Requested size: 225.84229pt x 149.90532pt.
+File: image021.png Graphic file (type png)
+<use image021.png>
+Package luatex.def Info: image021.png  used on input line 2100.
+(luatex.def)             Requested size: 225.84229pt x 149.90532pt.
+ [22<./image012.png><./image021.png>]
+<image031.png, id=583, 770.88pt x 770.88pt>
+File: image031.png Graphic file (type png)
+<use image031.png>
+Package luatex.def Info: image031.png  used on input line 2160.
+(luatex.def)             Requested size: 225.84229pt x 225.8432pt.
+File: image031.png Graphic file (type png)
+<use image031.png>
+Package luatex.def Info: image031.png  used on input line 2160.
+(luatex.def)             Requested size: 225.84229pt x 225.8432pt.
+ [23<./image031.png>]
+<image041.png, id=594, 676.02562pt x 614.295pt>
+File: image041.png Graphic file (type png)
+<use image041.png>
+Package luatex.def Info: image041.png  used on input line 2212.
 (luatex.def)             Requested size: 225.84229pt x 205.22066pt.
- [19<./image04.png>]
-<image05.png, id=379, 630.85687pt x 591.71063pt>
-File: image05.png Graphic file (type png)
-<use image05.png>
-Package luatex.def Info: image05.png  used on input line 1814.
-(luatex.def)             Requested size: 225.84229pt x 211.82387pt.
-File: image05.png Graphic file (type png)
-<use image05.png>
-Package luatex.def Info: image05.png  used on input line 1814.
-(luatex.def)             Requested size: 225.84229pt x 211.82387pt.
- [20] [21<./image05.png>] [22]
-[23] [24] [25] [26
+File: image041.png Graphic file (type png)
+<use image041.png>
+Package luatex.def Info: image041.png  used on input line 2212.
+(luatex.def)             Requested size: 225.84229pt x 205.22066pt.
+ [24<./image041.png>] [25] [26
 
 ]
 Capítulo 4.
-(./aula115.ind) [27] (./aula115.aux)
+File: escudo.png Graphic file (type png)
+<use escudo.png>
+Package luatex.def Info: escudo.png  used on input line 2378.
+(luatex.def)             Requested size: 152.41496pt x 152.41496pt.
+File: escudo.png Graphic file (type png)
+<use escudo.png>
+Package luatex.def Info: escudo.png  used on input line 2378.
+(luatex.def)             Requested size: 140.42256pt x 140.42256pt.
+[27] [28] [29] [30] [31] [32] [33]
+<image01.png, id=696, 602.25pt x 379.4175pt>
+File: image01.png Graphic file (type png)
+<use image01.png>
+Package luatex.def Info: image01.png  used on input line 3130.
+(luatex.def)             Requested size: 338.76343pt x 213.4276pt.
+File: image01.png Graphic file (type png)
+<use image01.png>
+Package luatex.def Info: image01.png  used on input line 3130.
+(luatex.def)             Requested size: 338.76343pt x 213.4276pt.
+
+Underfull \hbox (badness 7907) in paragraph at lines 3139--3142
+[][][][][]\TU/FreeSerif(0)/m/n/8 Ro-jas, J. (2022, May 17). El pri-mer si-tio we
+b de la his-to-ria. Un hito que cam-bió vi-das. Te-lefóni-ca. https://www.te-l
+efoni-
+ []
+
+<image02.png, id=698, 1918.16624pt x 725.71124pt>
+File: image02.png Graphic file (type png)
+<use image02.png>
+Package luatex.def Info: image02.png  used on input line 3159.
+(luatex.def)             Requested size: 469.73534pt x 177.71776pt.
+File: image02.png Graphic file (type png)
+<use image02.png>
+Package luatex.def Info: image02.png  used on input line 3159.
+(luatex.def)             Requested size: 457.73512pt x 173.17764pt.
+
+Underfull \hbox (badness 6141) in paragraph at lines 3165--3168
+[][][][][]\TU/FreeSerif(0)/m/n/8 Pas-tor, J. (2018, April 28). Cuan-do Mo-saic 
+do-mi-naba el mun-do (de los na-vegadores). Xa-ta-ka.com; Xa-ta-ka. https://www.
+xa-ta-
+ []
+
+<image03.png, id=700, 1028.34187pt x 729.47531pt>
+File: image03.png Graphic file (type png)
+<use image03.png>
+Package luatex.def Info: image03.png  used on input line 3185.
+(luatex.def)             Requested size: 469.76355pt x 333.23636pt.
+File: image03.png Graphic file (type png)
+<use image03.png>
+Package luatex.def Info: image03.png  used on input line 3185.
+(luatex.def)             Requested size: 457.75977pt x 324.72124pt.
+[34<./image01.png><./image02.png>]
+<image04.png, id=717, 379.4175pt x 542.025pt>
+File: image04.png Graphic file (type png)
+<use image04.png>
+Package luatex.def Info: image04.png  used on input line 3221.
+(luatex.def)             Requested size: 225.84229pt x 322.63707pt.
+File: image04.png Graphic file (type png)
+<use image04.png>
+Package luatex.def Info: image04.png  used on input line 3221.
+(luatex.def)             Requested size: 225.84229pt x 322.63707pt.
+ [35<./image03.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 3227--3230
+[][][][][]\TU/FreeSerif(0)/m/n/8 Pas-tor, J. (2015, Ja-nuary 27). Al-tair 8800: todo co-men-z
+ó hace ya 40 años. Xa-ta-ka.com; Xa-ta-ka. https://www.xa-ta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3241--3244
+[][][][][]\TU/FreeSerif(0)/m/n/8 The Con-ver-sa-tion. (2024, Ja-nuary 22). La Ma
+c cum-ple 40 años: de-bu-tó con este an-to-lógi-co avi-so di-ri-gi-do por Rid
+-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3241--3244
+\TU/FreeSerif(0)/m/n/8 ley Scott para mos-trar cómo ha-bía otra for-ma de usar
+ una compu-tado-ra. LA NA-CION. https://www.la-na-cion.com.ar/tec-
+ []
+
+<image05.png, id=730, 1478.52374pt x 966.61125pt>
+File: image05.png Graphic file (type png)
+<use image05.png>
+Package luatex.def Info: image05.png  used on input line 3279.
+(luatex.def)             Requested size: 451.68457pt x 295.29535pt.
+File: image05.png Graphic file (type png)
+<use image05.png>
+Package luatex.def Info: image05.png  used on input line 3279.
+(luatex.def)             Requested size: 451.68457pt x 295.29535pt.
+[36<./image04.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 3288--3291
+[][][][][]\TU/FreeSerif(0)/m/n/8 His-to-ria de Mi-cro-soft. (2012, No-vember 10)
+. Blog de tec-nología; Sis-te-mas Iber-tró-ni-ca. https://iber-tro-ni-ca.es/bl
+og/pro-duc-
+ []
+
+<image06.png, id=745, 694.09312pt x 420.06938pt>
+File: image06.png Graphic file (type png)
+<use image06.png>
+Package luatex.def Info: image06.png  used on input line 3308.
+(luatex.def)             Requested size: 376.40381pt x 227.80836pt.
+File: image06.png Graphic file (type png)
+<use image06.png>
+Package luatex.def Info: image06.png  used on input line 3308.
+(luatex.def)             Requested size: 376.40381pt x 227.80836pt.
+[37<./image05.png>]
+<image07.png, id=757, 889.82437pt x 600.74437pt>
+File: image07.png Graphic file (type png)
+<use image07.png>
+Package luatex.def Info: image07.png  used on input line 3344.
+(luatex.def)             Requested size: 451.68457pt x 304.94559pt.
+File: image07.png Graphic file (type png)
+<use image07.png>
+Package luatex.def Info: image07.png  used on input line 3344.
+(luatex.def)             Requested size: 451.68457pt x 304.94559pt.
+ [38<./image06.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 3357--3360
+[][][][][]\TU/FreeSerif(0)/m/n/8 Ve-lás-quez, W. (2022, April 1). 3 his-to-rias
+ del soft-wa-re li-bre que de-be-rías co-no-cer. Wa-ja-ri. https://wa-ja-
+ []
+
+<image08.png, id=769, 549.55313pt x 328.97906pt>
+File: image08.png Graphic file (type png)
+<use image08.png>
+Package luatex.def Info: image08.png  used on input line 3377.
+(luatex.def)             Requested size: 451.68457pt x 270.40208pt.
+File: image08.png Graphic file (type png)
+<use image08.png>
+Package luatex.def Info: image08.png  used on input line 3377.
+(luatex.def)             Requested size: 451.68457pt x 270.40208pt.
+[39<./image07.png>]
+<image09.png, id=782, 1882.03125pt x 1882.03125pt>
+File: image09.png Graphic file (type png)
+<use image09.png>
+Package luatex.def Info: image09.png  used on input line 3406.
+(luatex.def)             Requested size: 150.56152pt x 150.53685pt.
+File: image09.png Graphic file (type png)
+<use image09.png>
+Package luatex.def Info: image09.png  used on input line 3406.
+(luatex.def)             Requested size: 150.56152pt x 150.53685pt.
+<image10.png, id=784, 577.15625pt x 254.9525pt>
+File: image10.png Graphic file (type png)
+<use image10.png>
+Package luatex.def Info: image10.png  used on input line 3428.
+(luatex.def)             Requested size: 301.12305pt x 133.02342pt.
+File: image10.png Graphic file (type png)
+<use image10.png>
+Package luatex.def Info: image10.png  used on input line 3428.
+(luatex.def)             Requested size: 301.12305pt x 133.02342pt.
+ [40<./image08.png><./image09.png>] [41<./image10.png>]
+[42
+
+]
+Capítulo 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3462--3463
+\TU/FreeSerif(0)/m/n/10 li-con Va-lley fi-nal-men-te lo ad-mi-te. CNN en Es-pa-
+ñol. https://cn-nes-pa-nol.cnn.com/2025/05/11/cien-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3490--3491
+[]\TU/FreeSerif(0)/m/n/10 The Con-ver-sa-tion. (2024, Ja-nuary 22). La Mac cum-p
+le 40 años: de-bu-tó con este
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3490--3491
+\TU/FreeSerif(0)/m/n/10 an-to-lógi-co avi-so di-ri-gi-do por Rid-ley Scott para
+ mos-trar cómo ha-bía otra for-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3490--3491
+\TU/FreeSerif(0)/m/n/10 ma de usar una compu-tado-ra. LA NA-CION. https://www.la
+-na-cion.com.ar/tec-
+ []
+
+
+Overfull \hbox (49.11496pt too wide) in paragraph at lines 3490--3491
+\TU/FreeSerif(0)/m/n/10 nologia/la-mac-cumple-40-anos-debuto-con-este-antologico
+-aviso-dirigido-por-ridley-scott-para-mostrar-como-nid22012024/ 
+ []
+
+[43] [44]
+Capítulo 6.
+(./aula115.ind) [45
+
+] (./aula115.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `aula115.out' has not changed.
-(rerunfilecheck)             Checksum: 0241D68305D923FF36F83E6143A400F7;7934.
+(rerunfilecheck)             Checksum: D7357C069BA21CBDEF2210B4F809F3C5;15337.
 )
 
 Here is how much of LuaTeX's memory you used:
- 22435 strings out of 476076
+ 22897 strings out of 476076
  125086,953878 words of node,token memory allocated
- 597 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 73 glue_spec,
- 8 attribute_list, 1 write nodes
-   avail lists: 1:2,2:1974,3:400,4:2140,5:3023,6:105,7:8512,8:68,9:1519,10:22,11
-:741
- 44140 multiletter control sequences out of 65536+600000
- 89 fonts using 66289919 bytes
+ 774 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 17 glue, 4 kern, 1 glyph, 26 attribute, 73 glue_spe
+c, 26 attribute_list, 1 write nodes
+   avail lists: 1:1,2:1938,3:400,4:2140,5:2974,6:105,7:8403,8:79,9:1519,10:29,11
+:776
+ 44355 multiletter control sequences out of 65536+600000
+ 103 fonts using 72994623 bytes
  75i,24n,93p,1195b,1088s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/opentype/public/gnu-freefont/FreeMonoB
 old.otf></usr/local/texlive/2026/texmf-dist/fonts/opentype/public/gnu-freefont/F
@@ -1225,10 +1427,10 @@ usr/local/texlive/2026/texmf-dist/fonts/opentype/public/gnu-freefont/FreeSansBol
 d.otf></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
 pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 >
-Output written on aula115.pdf (31 pages, 4891385 bytes).
+Output written on aula115.pdf (49 pages, 13206999 bytes).
 
-PDF statistics: 532 PDF objects out of 1000 (max. 8388607)
- 432 compressed objects within 5 object streams
- 145 named destinations out of 1000 (max. 1048576)
- 373 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 910 PDF objects out of 1000 (max. 8388607)
+ 769 compressed objects within 8 object streams
+ 280 named destinations out of 1000 (max. 1048576)
+ 685 words of extra memory for PDF output out of 10000 (max. 100000000)
 

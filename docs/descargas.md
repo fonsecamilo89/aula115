@@ -9,7 +9,7 @@ Identifique el recurso y PULSE el botón **Descargar**.
 ## Institucional
 
 - MANUAL DE CONVIVENCIA [{bdg-primary}`Descargar`](./recursos/manual_convivencia.pdf) [{bdg-secondary}`Descargar`](https://drive.google.com/file/d/101ObkDOMInftIxeh4Q_yyKYM9gwauDN7/view?usp=drive_link)
-- Portal: aula 115 (PDF) [{bdg-primary}`Descargar`](./recursos/aula115.pdf)
+- PORTAL: aula 115 (PDF) [{bdg-primary}`Descargar`](./recursos/aula115.pdf)
 
 ---
 ## Proyecto de grado

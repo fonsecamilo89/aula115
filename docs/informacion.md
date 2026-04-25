@@ -43,7 +43,7 @@ Puntaje INSTRUIMOS | Nota IEJFK
 :::
 
 ---
-## Sello docente &reg;
+## Sello docente
 
 - Estudiante coloca la fecha.
 - La **nota** puede ser cualitativa o cuantitativa.
@@ -57,7 +57,7 @@ Puntaje INSTRUIMOS | Nota IEJFK
 :::
 
 ---
-## @cceso al portal dentro y fuera del aula
+## Acceso al portal dentro y fuera del aula
 
 Los **estudiantes** pueden acceder al **portal web** desde cualquier lugar siempre y cuando **tengan acceso a INTERNET**.
 
@@ -67,7 +67,7 @@ Si los estudiantes también puede acceder al **portal web** por medio de la INTR
 - INTERNET: [https://aula115.readthedocs.io](https://aula115.readthedocs.io)
 
 ---
-## Modelo de almacenamiento Google WorkSpace
+## Modelo de almacenamiento Google WorkSpace&reg;
 
 La siguiente tabla muestra los **límites de almacenamiento** de la cuenta institucional que cada integrante tiene (según su rol) en la [Institución Educativa John F. Kennedy](https://www.jfkennedy.edu.co).
 
