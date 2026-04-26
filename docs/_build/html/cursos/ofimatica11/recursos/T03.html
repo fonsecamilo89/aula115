@@ -1,0 +1,552 @@
+<!doctype html>
+<html class="no-js" lang="es" data-content_root="../../../">
+  <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Índice" href="../../../genindex.html"><link rel="search" title="Búsqueda" href="../../../search.html"><link rel="next" title="Referencias" href="../../../referencias.html"><link rel="prev" title="T02: Diagramas de flujo" href="T02.html">
+        <link rel="prefetch" href="../../../_static/logo_light.png" as="image">
+        <link rel="prefetch" href="../../../_static/logo_dark.png" as="image">
+
+    <!-- Generated with Sphinx 8.2.3 and Furo 2025.09.25 -->
+        <title>T03: Algoritmos - PORTAL: aula 115</title>
+      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo.css?v=580074bf" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo-extensions.css?v=8dab3a3b" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #eeffcc;
+  --color-code-foreground: black;
+  --color-guilabel-text: #FF0000;
+  --color-brand-primary: #265787;
+  --sidebar-caption-font-size: var(--font-size--normal);
+  --toc-font-size: var(--font-size--small);
+  --admonition-font-size: 0.858rem;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #272822;
+  --color-code-foreground: #f8f8f2;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #272822;
+  --color-code-foreground: #f8f8f2;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle site navigation sidebar">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc" aria-label="Toggle table of contents sidebar">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <span class="icon"><svg><use href="#svg-menu"></use></svg></span>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../../index.html"><div class="brand">PORTAL: aula 115</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../../index.html">
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo only-light" src="../../../_static/logo_light.png" alt="Light Logo"/>
+    <img class="sidebar-logo only-dark" src="../../../_static/logo_dark.png" alt="Dark Logo"/>
+  </div>
+  
+  
+</a><form class="sidebar-search-container" method="get" action="../../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Búsqueda" name="q" aria-label="Búsqueda">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../informacion.html">Información</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../reglas.html">Reglas del aula</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">CURSOS</span></p>
+<ul class="current">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../logica8/index.html">Lógica computacional 8</a><input aria-label="Toggle navigation of Lógica computacional 8" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../logica8/periodo01/index.html">Periodo 01</a><input aria-label="Toggle navigation of Periodo 01" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../logica8/periodo01/G01.html">Guía 01: Lógica computacional</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../logica8/periodo01/R01.html">Plan de refuerzo 01</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../logica8/recursos/index.html">Recursos</a><input aria-label="Toggle navigation of Recursos" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../logica8/recursos/T01.html">T01: Concepto lógica computacional</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../informatica10/index.html">Informática 10</a><input aria-label="Toggle navigation of Informática 10" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../informatica10/periodo01/index.html">Periodo 01</a><input aria-label="Toggle navigation of Periodo 01" class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../informatica10/periodo01/G01.html">Guía 01: Historia de la computación personal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../informatica10/periodo01/R01.html">Plan de refuerzo 01</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../informatica10/recursos/index.html">Recursos</a><input aria-label="Toggle navigation of Recursos" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../informatica10/recursos/T01.html">T01: Historia de la computación personal</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="../index.html">Ofimática 11</a><input aria-label="Toggle navigation of Ofimática 11" checked="" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
+<li class="toctree-l2 has-children"><a class="reference internal" href="../periodo01/index.html">Periodo 01</a><input aria-label="Toggle navigation of Periodo 01" class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../periodo01/G01.html">Guía 01: Conocimientos previos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../periodo01/G02.html">Guía 02: Diagramas de flujo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../periodo01/G03.html">Guía 03: Desarrollo de algoritmos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../periodo01/R01.html">Plan de refuerzo 01</a></li>
+</ul>
+</li>
+<li class="toctree-l2 current has-children"><a class="reference internal" href="index.html">Recursos</a><input aria-label="Toggle navigation of Recursos" checked="" class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="T01.html">T01: Conocimientos previos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="T02.html">T02: Diagramas de flujo</a></li>
+<li class="toctree-l3 current current-page"><a class="current reference internal" href="#">T03: Algoritmos</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../referencias.html">Referencias</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">ANEXOS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../descargas.html">Descargas</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="view-this-page">
+  <a class="muted-link" href="../../../_sources/cursos/ofimatica11/recursos/T03.md.txt" title="View this page">
+    <svg><use href="#svg-eye"></use></svg>
+    <span class="visually-hidden">View this page</span>
+  </a>
+</div>
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section class="tex2jax_ignore mathjax_ignore" id="t03-algoritmos">
+<h1>T03: Algoritmos<a class="headerlink" href="#t03-algoritmos" title="Link to this heading">¶</a></h1>
+<p><a class="footnote-reference brackets" href="#id2" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> Un algoritmo es un conjunto de <strong>instrucciones</strong> que le dicen a un ser humano COMO REALIZAR una tarea específica, dichas instrucciones pueden estar escritas en código o lenguaje natural.</p>
+<p>Un algoritmo puede ser expresado con palabras o números.</p>
+<hr class="docutils" />
+<section id="tipos-de-algoritmos">
+<h2>Tipos de algoritmos<a class="headerlink" href="#tipos-de-algoritmos" title="Link to this heading">¶</a></h2>
+<p>Un algoritmo es cualquier actividad o evento con inicio y final, que tenga una serie de pasos lógicos para lograr su ejecución. Y estos suelen ser representados mediante diagramas de flujo.</p>
+<p>Existen dos tipos de algoritmos:</p>
+<ul class="simple">
+<li><p>Algoritmos cualitativos (informales)</p></li>
+<li><p>Algoritmos cuantitativos (formales)</p></li>
+</ul>
+<section id="algoritmos-cualitativos-informales">
+<h3>Algoritmos cualitativos (informales)<a class="headerlink" href="#algoritmos-cualitativos-informales" title="Link to this heading">¶</a></h3>
+<p>No requieren de cálculos numéricos para su ejecución. En su lugar, se deben ejecutar secuencias lógicas. Por ejemplo: las instrucciones para ensamblar un artefacto.</p>
+</section>
+<section id="algoritmos-cuantitativos-formales">
+<h3>Algoritmos cuantitativos (formales)<a class="headerlink" href="#algoritmos-cuantitativos-formales" title="Link to this heading">¶</a></h3>
+<p>Requieren de cálculos numéricos (por ejemplo la solución de una ecuación). Si el cálculo numérico puede ser procesado por una persona, entonces es un <strong>algoritmo cuantitativo no computacional</strong>.</p>
+<p>Si los cálculos numéricos son muy complejos entonces requieren poder computacional. A esta clase de algoritmos se les dice que son <strong>algoritmos cuantitativos computacionales</strong>.</p>
+<ul class="simple">
+<li><p><strong>Algoritmo cuantitativo no computacional:</strong> Estos algoritmos requieren de operaciones numéricas simples, que un ser humano puede resolver sin necesidad de usar un sistema computacional. Por ejemplo una receta de cocina, un cálculo numérico sencillo o las instrucciones para llegar a un lugar.</p></li>
+<li><p><strong>Algoritmo cuantitativo computacional:</strong> Estos algoritmos requieren de operaciones numéricas complejas que deben resolverse con dispositivos de cálculo, como una computadora o calculadora. Ecuaciones de mucha complejidad o códigos que solo pueden ser interpretados por una máquina, son ejemplos de este tipo de algoritmo.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="metodologia-para-desarrollar-un-algoritmo">
+<h2>Metodología para desarrollar un algoritmo<a class="headerlink" href="#metodologia-para-desarrollar-un-algoritmo" title="Link to this heading">¶</a></h2>
+<p>Cuando se desarrolla un algoritmo, cualquier usuario podría ejecutarlo siempre y cuando cumpla unos requisitos iniciales.</p>
+<p>Para desarrollar un algoritmo, se tienen las siguientes fases:</p>
+<ul>
+<li><p><strong>FASE 01: Análisis de requisitos (objetivo y condiciones)</strong></p>
+<p>En esta fase se identifica lo siguiente:</p>
+<ul class="simple">
+<li><p><strong>Objetivo:</strong> Identificar el objetivo claro del algoritmo.</p></li>
+<li><p><strong>Condiciones iniciales:</strong> Identificar los requisitos que debe cumplir el usuario para poder desarrollar el algoritmo.</p></li>
+<li><p><strong>Condiciones de incumplimiento:</strong> Identificar todos los condicionales del algoritmo.</p></li>
+<li><p><strong>Condiciones de cumplimiento:</strong> Identificar el estado del usuario cuando se cumple el algoritmo.</p></li>
+</ul>
+</li>
+<hr class="docutils" />
+<li><p><strong>FASE 02: Diseño del algoritmo (diagrama de flujo)</strong></p>
+<p>Realizar un diagrama de flujo donde muestre el paso a paso lógico por medio de las siguientes figuras:</p>
+<ul class="simple">
+<li><p><strong>Círculos:</strong> INICIO y FIN</p></li>
+<li><p><strong>Rectángulos:</strong> Acciones</p></li>
+<li><p><strong>Rombos:</strong> Condicionales</p></li>
+<li><p><strong>Rombos anidados:</strong> Bucles</p></li>
+<li><p><strong>Flechas:</strong> Orden de secuencia.</p></li>
+</ul>
+<p>Después de tener el diagrama de flujo, realizar un análisis.</p>
+</li>
+<hr class="docutils" />
+<li><p><strong>FASE 03: Construcción del algoritmo (código fuente)</strong></p>
+<p>Conversión del <strong>diagrama de flujo</strong> a <strong>CÓDIGO FUENTE</strong>.
+El código fuente es cualquier código que usa un lenguaje de programación que entienda una PC.
+En este caso sería PYTHON pero de momento se usará PSEUDOCÓDIGO.</p>
+<p>Se debe identificar el algoritmo. La identificación debe tener:</p>
+<ul class="simple">
+<li><p><strong>TÍTULO:</strong> “Nombre del algoritmo”</p></li>
+<li><p><strong>AUTOR:</strong> “Creador del algoritmo”</p></li>
+<li><p><strong>FECHA:</strong> “Fecha de creación o última modificación del algoritmo”</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="algoritmo-para-ir-al-colegio-ejemplo">
+<h2>Algoritmo para ir al colegio (ejemplo)<a class="headerlink" href="#algoritmo-para-ir-al-colegio-ejemplo" title="Link to this heading">¶</a></h2>
+<p>Desarrolle el siguiente ejercicio:</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Algoritmo para ir al colegio</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">En su cuaderno desarrolle un <strong>algoritmo que permita a un estudiante ir al colegio</strong>. Tenga en cuenta lo siguiente:</p>
+<blockquote>
+<div><p class="sd-card-text">El estudiante inicialmente está en su casa. Luego debe ponerse el uniforme e ir al garaje para intentar prender la moto.</p>
+<p class="sd-card-text">Si la moto NO prende, entonces salir del garaje, luego salir de la casa para llegar al colegio a pie.</p>
+<p class="sd-card-text">Si la moto SI prende, entonces abrir el garaje, luego salir del garaje para llegar al colegio en moto.</p>
+</div></blockquote>
+</div>
+</details><p>A continuación se muestra la solución del desarrollo del algoritmo.</p>
+<section id="fase-01-analisis-de-requisitos">
+<h3>FASE 01: Análisis de requisitos<a class="headerlink" href="#fase-01-analisis-de-requisitos" title="Link to this heading">¶</a></h3>
+<div class="tip admonition">
+<p class="admonition-title">(Objetivo y condiciones)</p>
+<p class="rubric" id="objetivo">OBJETIVO</p>
+<ul class="simple">
+<li><p>Llegar al colegio.</p></li>
+</ul>
+<p class="rubric" id="condiciones-iniciales">CONDICIONES INICIALES</p>
+<ul class="simple">
+<li><p>El estudiante debe estar en su casa</p></li>
+<li><p>La casa del estudiante debe tener un garaje.</p></li>
+<li><p>El estudiante no debe tener puesto el uniforme.</p></li>
+<li><p>El estudiante debe tener una moto en el garaje.</p></li>
+</ul>
+<p class="rubric" id="condiciones-de-incumplimiento">CONDICIONES DE INCUMPLIMIENTO</p>
+<ul class="simple">
+<li><p>La moto no prende.</p></li>
+</ul>
+<p class="rubric" id="condiciones-de-cumplimiento">CONDICIONES DE CUMPLIMIENTO</p>
+<ul class="simple">
+<li><p>El estudiante está en el colegio.</p></li>
+<li><p>El estudiante tiene el uniforme puesto.</p></li>
+<li><p>La moto puede estar en el colegio o en el garaje.</p></li>
+</ul>
+</div>
+</section>
+<section id="fase-02-diseno-del-algoritmo">
+<h3>FASE 02: Diseño del algoritmo<a class="headerlink" href="#fase-02-diseno-del-algoritmo" title="Link to this heading">¶</a></h3>
+<div class="tip admonition">
+<p class="admonition-title">(Diagrama de flujo)</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../../_images/image091.png"><img alt="../../../_images/image091.png" src="../../../_images/image091.png" style="width: 400px;" />
+</a>
+</figure>
+</div>
+</section>
+<section id="fase-03-construccion-del-algoritmo">
+<h3>FASE 03: Construcción del algoritmo<a class="headerlink" href="#fase-03-construccion-del-algoritmo" title="Link to this heading">¶</a></h3>
+<div class="tip admonition">
+<p class="admonition-title">(Código fuente)</p>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p>TÍTULO</p></td>
+<td><p>Algoritmo para que un estudiante pueda ir al colegio</p></td>
+</tr>
+<tr class="row-even"><td><p>AUTOR</p></td>
+<td><p>Camilo Fonseca</p></td>
+</tr>
+<tr class="row-odd"><td><p>FECHA</p></td>
+<td><p>Domingo, 12 de Abril de 2026 - 03:38pm</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span> <span class="n">INICIO</span>
+<span class="linenos"> 2</span>
+<span class="linenos"> 3</span> <span class="mf">1.</span> <span class="n">Ponerse</span> <span class="n">el</span> <span class="n">uniforme</span>
+<span class="linenos"> 4</span> <span class="mf">3.</span> <span class="n">Ir</span> <span class="n">al</span> <span class="n">garaje</span>
+<span class="linenos"> 5</span> <span class="mf">4.</span> <span class="n">Intentar</span> <span class="n">prender</span> <span class="n">la</span> <span class="n">moto</span>
+<span class="linenos"> 6</span> <span class="mf">5.</span> <span class="n">Si</span> <span class="p">(</span><span class="n">la</span> <span class="n">moto</span> <span class="n">SI</span> <span class="n">prende</span><span class="p">)</span>
+<span class="linenos"> 7</span>     <span class="mf">5.1</span> <span class="n">Abrir</span> <span class="n">el</span> <span class="n">garaje</span>
+<span class="linenos"> 8</span>     <span class="mf">5.2</span> <span class="n">Sacar</span> <span class="n">la</span> <span class="n">moto</span>
+<span class="linenos"> 9</span>     <span class="mf">5.3</span> <span class="n">Cerrar</span> <span class="n">el</span> <span class="n">garaje</span>
+<span class="linenos">10</span>     <span class="mf">5.4</span> <span class="n">Conducir</span> <span class="n">hasta</span> <span class="n">el</span> <span class="n">colegio</span>
+<span class="linenos">11</span> <span class="mf">6.</span> <span class="n">Si</span> <span class="p">(</span><span class="n">la</span> <span class="n">moto</span> <span class="n">NO</span> <span class="n">prende</span><span class="p">)</span>
+<span class="linenos">12</span>     <span class="mf">6.1</span> <span class="n">Salir</span> <span class="k">del</span> <span class="n">garage</span>
+<span class="linenos">13</span>     <span class="mf">6.2</span> <span class="n">Salir</span> <span class="n">de</span> <span class="n">la</span> <span class="n">casa</span>
+<span class="linenos">14</span>     <span class="mf">6.3</span> <span class="n">Cerrar</span> <span class="n">la</span> <span class="n">puerta</span>
+<span class="linenos">15</span>     <span class="mf">6.4</span> <span class="n">Caminar</span> <span class="n">hasta</span> <span class="n">el</span> <span class="n">colegio</span>
+<span class="linenos">16</span> <span class="mf">7.</span> <span class="n">Llegar</span> <span class="n">al</span> <span class="n">colegio</span>
+<span class="linenos">17</span> 
+<span class="linenos">18</span> <span class="n">FIN</span>
+</pre></div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<hr class="footnotes docutils" />
+<aside class="footnote-list brackets">
+<aside class="footnote brackets" id="id2" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+<p>Trejos Buriticá, O. I. (2017). Lógica de programación. Ediciones de la U.</p>
+</aside>
+</aside>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="../../../referencias.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Referencias</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="T02.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">T02: Diagramas de flujo</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2026, Julian Camilo Fonseca Romero
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">T03: Algoritmos</a><ul>
+<li><a class="reference internal" href="#tipos-de-algoritmos">Tipos de algoritmos</a><ul>
+<li><a class="reference internal" href="#algoritmos-cualitativos-informales">Algoritmos cualitativos (informales)</a></li>
+<li><a class="reference internal" href="#algoritmos-cuantitativos-formales">Algoritmos cuantitativos (formales)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#metodologia-para-desarrollar-un-algoritmo">Metodología para desarrollar un algoritmo</a></li>
+<li><a class="reference internal" href="#algoritmo-para-ir-al-colegio-ejemplo">Algoritmo para ir al colegio (ejemplo)</a><ul>
+<li><a class="reference internal" href="#fase-01-analisis-de-requisitos">FASE 01: Análisis de requisitos</a></li>
+<li><a class="reference internal" href="#fase-02-diseno-del-algoritmo">FASE 02: Diseño del algoritmo</a></li>
+<li><a class="reference internal" href="#fase-03-construccion-del-algoritmo">FASE 03: Construcción del algoritmo</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="../../../_static/documentation_options.js?v=e2bb6099"></script>
+    <script src="../../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../_static/scripts/furo.js?v=46bd48cc"></script>
+    <script src="../../../_static/translations.js?v=f85f4cfb"></script>
+    <script src="../../../_static/design-tabs.js?v=f930bc37"></script>
+    </body>
+</html>

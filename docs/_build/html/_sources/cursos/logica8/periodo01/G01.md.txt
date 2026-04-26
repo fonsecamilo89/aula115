@@ -1,4 +1,4 @@
-# Guía 01: lógica computacional
+# Guía 01: Lógica computacional
 
 :::{list-table}
 :widths: 35 65

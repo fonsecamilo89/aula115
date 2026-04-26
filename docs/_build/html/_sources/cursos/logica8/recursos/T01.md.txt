@@ -119,7 +119,7 @@ Una **interfaz gráfica** es un sistema que permite a los usuarios interactuar c
 [^2] **La informática** es la ciencia o disciplina que estudia el diseño, construcción e implementación de **sistemas computacionales** para garantizar la **integridad** y **disponibilidad** de la información.
 
 - REGLA 01: (Integridad de la información)
-    > *“Toda información debe conservar su integridad para que no pueda ser modifica sin autorización”*
+    > *“Toda información debe conservar su integridad para que no pueda ser modifica sin autorización”.*
     > 
 - REGLA 02: (Disponibilidad de la información)
     > *“Toda información debe estar disponible y llegar oportunamente”.*
@@ -154,7 +154,7 @@ Para el siguiente razonamiento, verifique si es correcto o no:
 ---
 ## DEFINICIÓN DE LÓGICA COMPUTACIONAL
 
-[^3] La **lógica computacional** es el área de la **informática** que aplica los principios de la **lógica** para [representar](./T01.md) y [automatizar](./T01.md) el **razonamiento**, con el objetivo de resolver problemas de forma estructurada y eficiente.
+[^3] La **lógica computacional** es el área de la **informática** que aplica los principios de la **lógica** para representar y automatizar el **razonamiento**, con el objetivo de resolver problemas de forma estructurada y eficiente.
 
 
 

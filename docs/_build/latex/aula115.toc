@@ -17,7 +17,7 @@
 \contentsline {chapter}{\numberline {3}Lógica computacional 8}{13}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Periodo 01}{13}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Contenidos}{13}{subsection.3.1.1}%
-\contentsline {subsubsection}{Guía 01: lógica computacional}{13}{subsubsection*.3}%
+\contentsline {subsubsection}{Guía 01: Lógica computacional}{13}{subsubsection*.3}%
 \contentsline {paragraph}{Mensaje del autor}{14}{paragraph*.4}%
 \contentsline {paragraph}{A00: Introducción (+0,1)}{14}{paragraph*.5}%
 \contentsline {paragraph}{A01: Concepto de hardware (+0,1)}{15}{paragraph*.6}%
@@ -78,7 +78,74 @@
 \contentsline {paragraph}{Historia del Internet (ARPANET)}{34}{paragraph*.57}%
 \contentsline {paragraph}{Historia del Hardware}{35}{paragraph*.62}%
 \contentsline {paragraph}{Historia del Software}{38}{paragraph*.68}%
-\contentsline {chapter}{\numberline {5}Referencias}{43}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Descargas}{45}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Institucional}{45}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Proyecto de grado}{45}{section.6.2}%
+\contentsline {chapter}{\numberline {5}Ofimática 11}{43}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Periodo 01}{43}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Contenidos}{43}{subsection.5.1.1}%
+\contentsline {subsubsection}{Guía 01: Conocimientos previos}{43}{subsubsection*.72}%
+\contentsline {paragraph}{Mensaje del autor}{44}{paragraph*.73}%
+\contentsline {paragraph}{A00: Introducción (+0,1)}{44}{paragraph*.74}%
+\contentsline {paragraph}{A01: Datos, información y jerarquía de datos (+0,1)}{45}{paragraph*.75}%
+\contentsline {paragraph}{A02: Relación entre datos e información (+0,2)}{45}{paragraph*.76}%
+\contentsline {paragraph}{A03: Jerarquía de datos (+0,2)}{45}{paragraph*.77}%
+\contentsline {paragraph}{A04: Concepto de hardware (RAM y CPU) (+0,1)}{46}{paragraph*.78}%
+\contentsline {paragraph}{A05: Utilidad del hardware (+0,2)}{47}{paragraph*.79}%
+\contentsline {paragraph}{A06: Concepto de software (+0,1)}{48}{paragraph*.80}%
+\contentsline {paragraph}{A07: Clasificación del software (+0,2)}{48}{paragraph*.81}%
+\contentsline {paragraph}{A08: Examen final (+4,0)}{49}{paragraph*.82}%
+\contentsline {subsubsection}{Guía 02: Diagramas de flujo}{50}{subsubsection*.83}%
+\contentsline {paragraph}{Mensaje del autor}{50}{paragraph*.84}%
+\contentsline {paragraph}{A00: Introducción (+0,3)}{51}{paragraph*.85}%
+\contentsline {paragraph}{A01: Diagramas de flujo (+0,7)}{51}{paragraph*.86}%
+\contentsline {paragraph}{A02: Orientaciones al extranjero (+1,0)}{51}{paragraph*.87}%
+\contentsline {paragraph}{A03: Orientaciones seguras (+3,0)}{53}{paragraph*.88}%
+\contentsline {subsubsection}{Guía 03: Desarrollo de algoritmos}{54}{subsubsection*.89}%
+\contentsline {paragraph}{Mensaje del autor}{54}{paragraph*.90}%
+\contentsline {paragraph}{A00: Introducción (+0,2)}{55}{paragraph*.91}%
+\contentsline {paragraph}{A01: ¿Qué son los algoritmos? (+0,2)}{55}{paragraph*.92}%
+\contentsline {paragraph}{A02: Tipos del algoritmos (+0,2)}{55}{paragraph*.93}%
+\contentsline {paragraph}{A03: Clasificación de algoritmos (+0,2)}{56}{paragraph*.94}%
+\contentsline {paragraph}{A04: Metodología para desarrollar un algoritmo (+0,2)}{57}{paragraph*.95}%
+\contentsline {paragraph}{A05: Algoritmos (+4,0)}{57}{paragraph*.96}%
+\contentsline {subsubsection}{Plan de refuerzo 01}{59}{subsubsection*.97}%
+\contentsline {paragraph}{Instrucción}{59}{paragraph*.98}%
+\contentsline {paragraph}{Hardware}{59}{paragraph*.99}%
+\contentsline {paragraph}{Software}{59}{paragraph*.100}%
+\contentsline {paragraph}{Información y datos}{59}{paragraph*.101}%
+\contentsline {paragraph}{Software Vs Programa}{60}{paragraph*.102}%
+\contentsline {subparagraph}{Software}{60}{subparagraph*.103}%
+\contentsline {subparagraph}{Programa}{60}{subparagraph*.104}%
+\contentsline {section}{\numberline {5.2}Recursos}{60}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Contenidos}{60}{subsection.5.2.1}%
+\contentsline {subsubsection}{T01: Conocimientos previos}{60}{subsubsection*.105}%
+\contentsline {paragraph}{Información y Datos}{60}{paragraph*.106}%
+\contentsline {subparagraph}{Datos}{60}{subparagraph*.108}%
+\contentsline {subparagraph}{Información}{61}{subparagraph*.109}%
+\contentsline {paragraph}{Valores cuantitativos y cualitativos}{61}{paragraph*.110}%
+\contentsline {paragraph}{Jerarquía de datos}{61}{paragraph*.111}%
+\contentsline {paragraph}{Hardware}{62}{paragraph*.113}%
+\contentsline {subparagraph}{La memoria RAM (acceso rápido a los datos)}{62}{subparagraph*.114}%
+\contentsline {subparagraph}{La CPU (procesa los datos)}{62}{subparagraph*.115}%
+\contentsline {paragraph}{Software}{63}{paragraph*.116}%
+\contentsline {paragraph}{Software Vs Programa}{63}{paragraph*.117}%
+\contentsline {subsubsection}{T02: Diagramas de flujo}{63}{subsubsection*.118}%
+\contentsline {paragraph}{Operación}{64}{paragraph*.120}%
+\contentsline {paragraph}{Límites de proceso}{64}{paragraph*.121}%
+\contentsline {paragraph}{Punto de decisión}{65}{paragraph*.122}%
+\contentsline {paragraph}{Conector}{65}{paragraph*.123}%
+\contentsline {paragraph}{Dirección de flujo}{65}{paragraph*.124}%
+\contentsline {paragraph}{Entrada manual}{66}{paragraph*.125}%
+\contentsline {paragraph}{Documento}{66}{paragraph*.126}%
+\contentsline {paragraph}{Base de datos}{66}{paragraph*.127}%
+\contentsline {subsubsection}{T03: Algoritmos}{66}{subsubsection*.128}%
+\contentsline {paragraph}{Tipos de algoritmos}{67}{paragraph*.130}%
+\contentsline {subparagraph}{Algoritmos cualitativos (informales)}{67}{subparagraph*.131}%
+\contentsline {subparagraph}{Algoritmos cuantitativos (formales)}{67}{subparagraph*.132}%
+\contentsline {paragraph}{Metodología para desarrollar un algoritmo}{67}{paragraph*.133}%
+\contentsline {paragraph}{Algoritmo para ir al colegio (ejemplo)}{68}{paragraph*.134}%
+\contentsline {subparagraph}{FASE 01: Análisis de requisitos}{68}{subparagraph*.135}%
+\contentsline {subparagraph}{FASE 02: Diseño del algoritmo}{69}{subparagraph*.136}%
+\contentsline {subparagraph}{FASE 03: Construcción del algoritmo}{69}{subparagraph*.137}%
+\contentsline {chapter}{\numberline {6}Referencias}{71}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Descargas}{73}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Institucional}{73}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Proyecto de grado}{73}{section.7.2}%

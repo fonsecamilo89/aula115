@@ -54,6 +54,7 @@ reglas.md
 
 cursos/logica8/index.md
 cursos/informatica10/index.md
+cursos/ofimatica11/index.md
 
 :::
 
