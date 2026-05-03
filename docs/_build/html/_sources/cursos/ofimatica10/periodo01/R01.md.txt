@@ -1,0 +1,36 @@
+# Plan de refuerzo 01
+
+:::{admonition} EVALUACIÓN: Plan de refuerzo (10 minutos)
+:class: attention
+Estudiar los temas a continuación. Se realiza examen de 5 preguntas. Si el estudiante no asiste en la fecha programada, este será evaluado la próxima vez que asista a clase.
+:::
+
+---
+## ¿Qué es la ofimática?
+
+La **ofimática** es el conjunto de técnicas, aplicaciones y herramientas informáticas que se utilizan para optimizar, automatizar y mejorar los procedimientos o tareas relacionadas con el trabajo de oficina. El término "ofimática" es una combinación de las palabras "oficina" e "informática".
+
+---
+## ¿Qué es Google Workspace?
+
+**Google Workspace** es una solución de productividad en línea desarrollada por **Google** que permite a los usuarios conectarse, crear y colaborar de manera segura. Incluye herramientas esenciales como:
+
+- **Gmail**: Servicio de correo electrónico.
+- **Documentos**: Para crear y editar documentos de texto.
+- **Hojas de cálculo**: Para trabajar con datos y realizar cálculos.
+- **Presentaciones**: Para crear presentaciones visuales.
+- **Drive**: Almacenamiento en la nube para guardar y compartir archivos.
+- **Calendario**: Para gestionar eventos y citas.
+
+---
+## ¿Qué es Microsoft Office?
+
+**Microsoft Office** es un conjunto de aplicaciones de software de productividad creado por **Microsoft**&reg;. Es una herramienta muy popular y ampliamente utilizada en todo el mundo para una variedad de tareas relacionadas con la creación, edición y gestión de documentos, hojas de cálculo, presentaciones y más.
+
+Algunas de las aplicaciones más conocidas que forman parte de Microsoft Office son:
+
+- **Word:** Para crear y editar documentos de texto, como cartas, informes y trabajos académicos.
+- **Excel:** Para crear hojas de cálculo, analizar datos, realizar cálculos y crear gráficos.
+- **PowerPoint:** Para crear presentaciones visuales con diapositivas, texto, imágenes y animaciones.
+- **Outlook:** Para gestionar correos electrónicos, calendarios, contactos y tareas.
+- **Access:** Para crear y gestionar bases de datos (menos común en el uso diario).

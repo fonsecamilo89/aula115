@@ -1,3 +1,3 @@
-El portal web del **aula 115** es un *repositorio didáctico digital* usado por estudiantes de básica secundaria y media en la [*Institución Educativa John F. Kennedy*](https://www.jfkennedy.edu.co) para el aprendizaje de la ofimática.
+**aula 115** es un *libro didáctico digital* usado por estudiantes de básica secundaria y media en la [*Institución Educativa John F. Kennedy*](https://www.jfkennedy.edu.co) para el aprendizaje de la ofimática.
 
-Este **repositorio** centraliza *recursos didácticos* y *educativos* con el propósito de potenciar el uso estratégico de **herramientas informáticas libres** para crear, almacenar y transmitir *información* de forma eficiente y así aumentar la productividad en tareas de oficina.
+Este **libro digital** centraliza *recursos didácticos* y *educativos* con el propósito de potenciar el uso estratégico de **herramientas ofimáticas libres** para la creación, edición, almacenamiento y distribución de la *información* y así aumentar la productividad en tareas de oficina o empresa.
