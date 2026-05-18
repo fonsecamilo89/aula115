@@ -39,7 +39,7 @@ language = 'es'
 latex_engine = "lualatex"
 latex_logo = "./_static/logo_light.png"
 latex_documents = [
-    ('index', 'aula115.tex', 'Libro didáctico digital para el estudiante', 'Julian Camilo Fonseca Romero', 'manual'),
+    ('index', 'aula115.tex', 'Libro didáctico para el estudiante', 'Julian Camilo Fonseca Romero', 'manual'),
 ]
 text_add_secnumbers = False
 latex_use_latex_multicolumn = True

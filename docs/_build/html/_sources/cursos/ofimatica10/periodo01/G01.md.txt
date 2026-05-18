@@ -12,8 +12,7 @@
     * - **GRADO**: DÉCIMO
     * - **PERIODO:** 01
     * - **TIEMPO**: 10 semanas (4 horas / semana)
-    * - **TOTAL**: 40 horas
-    * - **TIEMPO DE TRABAJO**: 20 horas
+    * - **TIEMPO DE TRABAJO**: 10/40 horas
     ```
 :::
 
@@ -73,13 +72,18 @@
 
 1. Escriba en su cuaderno los siguientes casos y al final de cada uno, indique que **área de trabajo** de la ofimática corresponde y explique por que.
 
-    - > "Un grupo de estudiantes crea una carpeta compartida en la nube para subir evidencias fotográficas de una salida de campo, permitiendo que todos editen archivos de forma colaborativa y segura desde cualquier dispositivo."
-    - > "Un profesional envía una propuesta comercial a un cliente potencial, adjuntando documentos técnicos y utilizando firmas digitales personalizadas para mantener una comunicación formal y segura."
-    - > "Un líder de proyecto programa una reunión de equipo sincronizada, enviando invitaciones automáticas con recordatorios y verificando la disponibilidad de horario de todos los colaboradores en tiempo real."
-    - > "El encargado de la biblioteca escolar crea un sistema estructurado para registrar el inventario de libros, los datos de los estudiantes y las fechas de devolución, facilitando la búsqueda rápida de ejemplares disponibles."
-    - > "Un estudiante de grado undécimo redacta su proyecto de grado utilizando herramientas de edición para estructurar el índice, insertar citas bibliográficas y exportar el informe final en formato PDF para su entrega formal."
-    - > "Un equipo de trabajo diseña una exposición visual sobre la cuarta revolución industrial, integrando imágenes, animaciones y transiciones para comunicar sus hallazgos de forma atractiva ante un comité evaluador."
-    - > "El tesorero de una pequeña empresa organiza los gastos mensuales mediante el uso de fórmulas automáticas para calcular el IVA, generar gráficos de barras que muestren las tendencias de consumo y filtrar datos por categorías de proveedores."
+    > "Un grupo de estudiantes crea una carpeta compartida en la nube para subir evidencias fotográficas de una salida de campo, permitiendo que todos editen archivos de forma colaborativa y segura desde cualquier dispositivo."
+    
+    > "Un profesional envía una propuesta comercial a un cliente potencial, adjuntando documentos técnicos y utilizando firmas digitales personalizadas para mantener una comunicación formal y segura."
+    
+    > "Un líder de proyecto programa una reunión de equipo sincronizada, enviando invitaciones automáticas con recordatorios y verificando la disponibilidad de horario de todos los colaboradores en tiempo real."
+    > "El encargado de la biblioteca escolar crea un sistema estructurado para registrar el inventario de libros, los datos de los estudiantes y las fechas de devolución, facilitando la búsqueda rápida de ejemplares disponibles."
+    
+    > "Un estudiante de grado undécimo redacta su proyecto de grado utilizando herramientas de edición para estructurar el índice, insertar citas bibliográficas y exportar el informe final en formato PDF para su entrega formal."
+    
+    > "Un equipo de trabajo diseña una exposición visual sobre la cuarta revolución industrial, integrando imágenes, animaciones y transiciones para comunicar sus hallazgos de forma atractiva ante un comité evaluador."
+    
+    > "El tesorero de una pequeña empresa organiza los gastos mensuales mediante el uso de fórmulas automáticas para calcular el IVA, generar gráficos de barras que muestren las tendencias de consumo y filtrar datos por categorías de proveedores."
 
 ---
 ## A03: Google Workspace (+0,1)

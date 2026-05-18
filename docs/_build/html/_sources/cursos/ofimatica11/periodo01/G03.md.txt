@@ -11,8 +11,7 @@
     * - **ASIGNATURA**: Ofimática
     * - **GRADO**: ONCE
     * - **TIEMPO**: 10 semanas (4 horas / semana)
-    * - **TOTAL**: 40 horas
-    * - **TIEMPO DE TRABAJO**: 20 horas
+    * - **TIEMPO DE TRABAJO**: 20/40 horas
     ```
 :::
 

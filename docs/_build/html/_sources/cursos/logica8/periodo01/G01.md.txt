@@ -11,15 +11,14 @@
     * - **ASIGNATURA**: Lógica computacional
     * - **GRADO**: OCTAVO
     * - **TIEMPO**: 10 semanas (1 hora / semana)
-    * - **TOTAL**: 10 horas
-    * - **TIEMPO DE TRABAJO**: 10 horas
+    * - **TIEMPO DE TRABAJO**: 10/10 horas
     ```
 :::
 
 :::{tab-set}
 ```{tab-item} Objetivo
 - **Temática**: Conceptos de lógica computacional.
-- **Objetivo de aprendizaje**: Entender los conceptos de hardware, software, sistema computacional, informática y lógica para entender que es lógica computacional.
+- **Objetivo de aprendizaje**: Comprender la interacción entre hardware, software y sistemas computacionales, aplicando el razonamiento lógico para entender el concepto de lógica computacional.
 ```
 
 ```{tab-item} Orientaciones curriculares

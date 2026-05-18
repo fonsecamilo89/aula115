@@ -1,3 +1,1 @@
-**aula 115** es un *libro didáctico digital* usado por estudiantes de básica secundaria y media en la [*Institución Educativa John F. Kennedy*](https://www.jfkennedy.edu.co) para el aprendizaje de la ofimática.
-
-Este **libro digital** centraliza *recursos didácticos* y *educativos* con el propósito de potenciar el uso estratégico de **herramientas ofimáticas libres** para la creación, edición, almacenamiento y distribución de la *información* y así aumentar la productividad en tareas de oficina o empresa.
+> El presente libro didáctico digital, **aula 115**, es una herramienta fundamental para estudiantes de educación básica y media de la *Institución Educativa John F. Kennedy*. Su propósito es potenciar el uso estratégico de herramientas ofimáticas libres, promoviendo no solo la productividad en el manejo de la información, sino también la autonomía e independencia tecnológica necesaria en los campos laboral y académico del siglo XXI.

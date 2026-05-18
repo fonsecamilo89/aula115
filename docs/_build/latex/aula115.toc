@@ -90,86 +90,144 @@
 \contentsline {paragraph}{A04: Microsoft Office (+0,1)}{46}{paragraph*.78}%
 \contentsline {paragraph}{A05: Servicio indicado (+0,5)}{46}{paragraph*.79}%
 \contentsline {paragraph}{A06: Examen escrito (+4,0)}{47}{paragraph*.80}%
-\contentsline {subsubsection}{Plan de refuerzo 01}{48}{subsubsection*.81}%
-\contentsline {paragraph}{¿Qué es la ofimática?}{48}{paragraph*.82}%
-\contentsline {paragraph}{¿Qué es Google Workspace?}{48}{paragraph*.83}%
-\contentsline {paragraph}{¿Qué es Microsoft Office?}{49}{paragraph*.84}%
-\contentsline {section}{\numberline {5.2}Recursos}{49}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Contenidos}{49}{subsection.5.2.1}%
-\contentsline {subsubsection}{T01: Introducción a la Ofimática}{49}{subsubsection*.85}%
-\contentsline {paragraph}{¿Qué es la ofimática?}{49}{paragraph*.86}%
-\contentsline {paragraph}{Google Workspace}{50}{paragraph*.88}%
-\contentsline {subparagraph}{Google ONE \sphinxhyphen {} AI PLUS (\$19,900/mes) (2026)}{50}{subparagraph*.90}%
-\contentsline {paragraph}{Microsoft Office}{51}{paragraph*.91}%
-\contentsline {subparagraph}{MICROSOFT 365 Family (\$459,999/año) (2026)}{51}{subparagraph*.93}%
-\contentsline {chapter}{\numberline {6}Ofimática 11}{53}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Periodo 01}{53}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Contenidos}{53}{subsection.6.1.1}%
-\contentsline {subsubsection}{Guía 01: Conocimientos previos}{53}{subsubsection*.94}%
-\contentsline {paragraph}{Mensaje del autor}{54}{paragraph*.95}%
-\contentsline {paragraph}{A00: Introducción (+0,1)}{54}{paragraph*.96}%
-\contentsline {paragraph}{A01: Datos, información y jerarquía de datos (+0,1)}{55}{paragraph*.97}%
-\contentsline {paragraph}{A02: Relación entre datos e información (+0,2)}{55}{paragraph*.98}%
-\contentsline {paragraph}{A03: Jerarquía de datos (+0,2)}{55}{paragraph*.99}%
-\contentsline {paragraph}{A04: Concepto de hardware (RAM y CPU) (+0,1)}{56}{paragraph*.100}%
-\contentsline {paragraph}{A05: Utilidad del hardware (+0,2)}{57}{paragraph*.101}%
-\contentsline {paragraph}{A06: Concepto de software (+0,1)}{58}{paragraph*.102}%
-\contentsline {paragraph}{A07: Clasificación del software (+0,2)}{58}{paragraph*.103}%
-\contentsline {paragraph}{A08: Examen final (+4,0)}{59}{paragraph*.104}%
-\contentsline {subsubsection}{Guía 02: Diagramas de flujo}{60}{subsubsection*.105}%
-\contentsline {paragraph}{Mensaje del autor}{60}{paragraph*.106}%
-\contentsline {paragraph}{A00: Introducción (+0,3)}{61}{paragraph*.107}%
-\contentsline {paragraph}{A01: Diagramas de flujo (+0,7)}{61}{paragraph*.108}%
-\contentsline {paragraph}{A02: Orientaciones al extranjero (+1,0)}{61}{paragraph*.109}%
-\contentsline {paragraph}{A03: Orientaciones seguras (+3,0)}{63}{paragraph*.110}%
-\contentsline {subsubsection}{Guía 03: Desarrollo de algoritmos}{64}{subsubsection*.111}%
-\contentsline {paragraph}{Mensaje del autor}{64}{paragraph*.112}%
-\contentsline {paragraph}{A00: Introducción (+0,2)}{65}{paragraph*.113}%
-\contentsline {paragraph}{A01: ¿Qué son los algoritmos? (+0,2)}{65}{paragraph*.114}%
-\contentsline {paragraph}{A02: Tipos del algoritmos (+0,2)}{65}{paragraph*.115}%
-\contentsline {paragraph}{A03: Clasificación de algoritmos (+0,2)}{66}{paragraph*.116}%
-\contentsline {paragraph}{A04: Metodología para desarrollar un algoritmo (+0,2)}{67}{paragraph*.117}%
-\contentsline {paragraph}{A05: Algoritmos (+4,0)}{67}{paragraph*.118}%
-\contentsline {subsubsection}{Plan de refuerzo 01}{69}{subsubsection*.119}%
-\contentsline {paragraph}{Instrucción}{69}{paragraph*.120}%
-\contentsline {paragraph}{Hardware}{69}{paragraph*.121}%
-\contentsline {paragraph}{Software}{69}{paragraph*.122}%
-\contentsline {paragraph}{Información y datos}{69}{paragraph*.123}%
-\contentsline {paragraph}{Software Vs Programa}{70}{paragraph*.124}%
-\contentsline {subparagraph}{Software}{70}{subparagraph*.125}%
-\contentsline {subparagraph}{Programa}{70}{subparagraph*.126}%
-\contentsline {section}{\numberline {6.2}Recursos}{70}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Contenidos}{70}{subsection.6.2.1}%
-\contentsline {subsubsection}{T01: Conocimientos previos}{70}{subsubsection*.127}%
-\contentsline {paragraph}{Información y Datos}{70}{paragraph*.128}%
-\contentsline {subparagraph}{Datos}{70}{subparagraph*.130}%
-\contentsline {subparagraph}{Información}{71}{subparagraph*.131}%
-\contentsline {paragraph}{Valores cuantitativos y cualitativos}{71}{paragraph*.132}%
-\contentsline {paragraph}{Jerarquía de datos}{71}{paragraph*.133}%
-\contentsline {paragraph}{Hardware}{72}{paragraph*.135}%
-\contentsline {subparagraph}{La memoria RAM (acceso rápido a los datos)}{72}{subparagraph*.136}%
-\contentsline {subparagraph}{La CPU (procesa los datos)}{72}{subparagraph*.137}%
-\contentsline {paragraph}{Software}{73}{paragraph*.138}%
-\contentsline {paragraph}{Software Vs Programa}{73}{paragraph*.139}%
-\contentsline {subsubsection}{T02: Diagramas de flujo}{73}{subsubsection*.140}%
-\contentsline {paragraph}{Operación}{74}{paragraph*.142}%
-\contentsline {paragraph}{Límites de proceso}{74}{paragraph*.143}%
-\contentsline {paragraph}{Punto de decisión}{75}{paragraph*.144}%
-\contentsline {paragraph}{Conector}{75}{paragraph*.145}%
-\contentsline {paragraph}{Dirección de flujo}{75}{paragraph*.146}%
-\contentsline {paragraph}{Entrada manual}{76}{paragraph*.147}%
-\contentsline {paragraph}{Documento}{76}{paragraph*.148}%
-\contentsline {paragraph}{Base de datos}{76}{paragraph*.149}%
-\contentsline {subsubsection}{T03: Algoritmos}{76}{subsubsection*.150}%
-\contentsline {paragraph}{Tipos de algoritmos}{77}{paragraph*.152}%
-\contentsline {subparagraph}{Algoritmos cualitativos (informales)}{77}{subparagraph*.153}%
-\contentsline {subparagraph}{Algoritmos cuantitativos (formales)}{77}{subparagraph*.154}%
-\contentsline {paragraph}{Metodología para desarrollar un algoritmo}{77}{paragraph*.155}%
-\contentsline {paragraph}{Algoritmo para ir al colegio (ejemplo)}{78}{paragraph*.156}%
-\contentsline {subparagraph}{FASE 01: Análisis de requisitos}{78}{subparagraph*.157}%
-\contentsline {subparagraph}{FASE 02: Diseño del algoritmo}{79}{subparagraph*.158}%
-\contentsline {subparagraph}{FASE 03: Construcción del algoritmo}{79}{subparagraph*.159}%
-\contentsline {chapter}{\numberline {7}Referencias}{81}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Descargas}{83}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Institucional}{83}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Proyecto de grado}{83}{section.8.2}%
+\contentsline {subsubsection}{Guía 02: Software Libre}{48}{subsubsection*.81}%
+\contentsline {paragraph}{Mensaje del autor}{49}{paragraph*.82}%
+\contentsline {paragraph}{A00: Introducción (+0,1)}{49}{paragraph*.83}%
+\contentsline {paragraph}{A01: Definición de software (+0,1)}{49}{paragraph*.84}%
+\contentsline {paragraph}{A02: Importancia del software libre (+0,1)}{50}{paragraph*.85}%
+\contentsline {paragraph}{A03: Ejemplos de software libre (+0,1)}{50}{paragraph*.86}%
+\contentsline {paragraph}{A04: Relación entre software libre, software propietario y software pirata (+0,1)}{51}{paragraph*.87}%
+\contentsline {paragraph}{A05: Ahorro(\$) usando software libre (+0,2)}{52}{paragraph*.88}%
+\contentsline {paragraph}{A06: El riesgo del software pirata (+0,2)}{52}{paragraph*.89}%
+\contentsline {paragraph}{A07: Identificación de software propietario y software libre (+0,1)}{53}{paragraph*.90}%
+\contentsline {paragraph}{A08: Carta al propietario (+4,0)}{53}{paragraph*.91}%
+\contentsline {subsubsection}{Guía 03: LibreOffice}{54}{subsubsection*.92}%
+\contentsline {paragraph}{Mensaje del autor}{55}{paragraph*.93}%
+\contentsline {paragraph}{A00: Introducción (+0,2)}{55}{paragraph*.94}%
+\contentsline {paragraph}{A01: LibreOffice (+0,2)}{55}{paragraph*.95}%
+\contentsline {paragraph}{A02: Paises que usan LibreOffice (+0,2)}{56}{paragraph*.96}%
+\contentsline {paragraph}{A03: Herramientas de LibreOffice (+0,2)}{56}{paragraph*.97}%
+\contentsline {paragraph}{A04: Ventajas de LibreOffice (+0,2)}{57}{paragraph*.98}%
+\contentsline {paragraph}{A05: Examen escrito (+4,0)}{57}{paragraph*.99}%
+\contentsline {subsubsection}{Plan de refuerzo 01}{58}{subsubsection*.100}%
+\contentsline {paragraph}{¿Qué es la ofimática?}{58}{paragraph*.101}%
+\contentsline {paragraph}{¿Qué es Google Workspace?}{59}{paragraph*.102}%
+\contentsline {paragraph}{¿Qué es Microsoft Office?}{59}{paragraph*.103}%
+\contentsline {paragraph}{¿Qué es el software libre?}{59}{paragraph*.104}%
+\contentsline {subparagraph}{Ejemplos de software libre}{59}{subparagraph*.105}%
+\contentsline {paragraph}{¿Qué es el software propietario?}{60}{paragraph*.106}%
+\contentsline {subparagraph}{Ejemplos de software propietario}{60}{subparagraph*.107}%
+\contentsline {paragraph}{¿Qué es el software pirata?}{60}{paragraph*.108}%
+\contentsline {paragraph}{¿Qué es LibreOffice?}{60}{paragraph*.109}%
+\contentsline {section}{\numberline {5.2}Recursos}{61}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Contenidos}{61}{subsection.5.2.1}%
+\contentsline {subsubsection}{T01: Introducción a la Ofimática}{61}{subsubsection*.110}%
+\contentsline {paragraph}{¿Qué es la ofimática?}{61}{paragraph*.111}%
+\contentsline {paragraph}{Google Workspace}{61}{paragraph*.113}%
+\contentsline {subparagraph}{Google ONE \sphinxhyphen {} AI PLUS (\$19,900/mes) (2026)}{62}{subparagraph*.115}%
+\contentsline {paragraph}{Microsoft Office}{62}{paragraph*.116}%
+\contentsline {subparagraph}{MICROSOFT 365 Family (\$459,999/año) (2026)}{63}{subparagraph*.118}%
+\contentsline {subsubsection}{T02: Software libre}{63}{subsubsection*.119}%
+\contentsline {paragraph}{¿Qué es el software?}{63}{paragraph*.120}%
+\contentsline {subparagraph}{Tipos de software}{63}{subparagraph*.122}%
+\contentsline {subparagraph}{Clasificación de software}{63}{subparagraph*.123}%
+\contentsline {paragraph}{Software libre}{64}{paragraph*.125}%
+\contentsline {subparagraph}{4 Libertades del software libre}{64}{subparagraph*.126}%
+\contentsline {paragraph}{Ejemplos de software libre}{64}{paragraph*.127}%
+\contentsline {subparagraph}{Sistema Operativo GNU\sphinxhyphen {}LINUX (\$0)}{64}{subparagraph*.128}%
+\contentsline {subparagraph}{Navegador web Mozilla FIREFOX (\$0)}{65}{subparagraph*.130}%
+\contentsline {subparagraph}{Editor de imágenes GIMP (\$0)}{65}{subparagraph*.132}%
+\contentsline {subparagraph}{Editor de gráficos vectoriales INKSCAPE (\$0)}{66}{subparagraph*.134}%
+\contentsline {subparagraph}{Reproductor multimedia VLC (\$0)}{66}{subparagraph*.136}%
+\contentsline {subparagraph}{Suite de creación 3D BLENDER (\$0)}{67}{subparagraph*.138}%
+\contentsline {subparagraph}{Edición de sonido Audacity (\$0)}{67}{subparagraph*.140}%
+\contentsline {subparagraph}{Suite ofimática Libreoffice (\$0)}{68}{subparagraph*.142}%
+\contentsline {paragraph}{Software propietario Ø}{68}{paragraph*.144}%
+\contentsline {paragraph}{Ejemplos de software propietario}{69}{paragraph*.145}%
+\contentsline {subparagraph}{Sistema operativo Microsoft Windows (\$769,999)}{69}{subparagraph*.146}%
+\contentsline {subparagraph}{Microsoft Office (suite ofimática) (\$459,999/año)}{69}{subparagraph*.148}%
+\contentsline {subparagraph}{Adobe Photoshop (editor de imágenes) (\$48,971/mes)}{70}{subparagraph*.150}%
+\contentsline {subparagraph}{AutoCAD (software de diseño) (\$2,201,999/año)}{70}{subparagraph*.152}%
+\contentsline {paragraph}{Software PIRATA!!!}{71}{paragraph*.154}%
+\contentsline {subsubsection}{T03: LibreOffice}{72}{subsubsection*.156}%
+\contentsline {paragraph}{Suite Ofimática LibreOffice}{72}{paragraph*.157}%
+\contentsline {paragraph}{Entidades que usan LibreOffice}{72}{paragraph*.159}%
+\contentsline {paragraph}{Herramientas de LibreOffice}{73}{paragraph*.161}%
+\contentsline {subparagraph}{LibreOffice Writer (procesador de textos)}{73}{subparagraph*.162}%
+\contentsline {subparagraph}{LibreOffice Calc (hoja de cálculo)}{73}{subparagraph*.163}%
+\contentsline {subparagraph}{LibreOffice Impress (presentaciones)}{74}{subparagraph*.164}%
+\contentsline {subparagraph}{LibreOffice Draw (Dibujo vectorial)}{74}{subparagraph*.165}%
+\contentsline {subparagraph}{LibreOffice Base (Bases de datos)}{74}{subparagraph*.166}%
+\contentsline {subparagraph}{LibreOffice Math (Editor de fórmulas)}{75}{subparagraph*.167}%
+\contentsline {paragraph}{Ventajas de LibreOffice}{75}{paragraph*.168}%
+\contentsline {chapter}{\numberline {6}Ofimática 11}{77}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Periodo 01}{77}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Contenidos}{77}{subsection.6.1.1}%
+\contentsline {subsubsection}{Guía 01: Conocimientos previos}{77}{subsubsection*.169}%
+\contentsline {paragraph}{Mensaje del autor}{78}{paragraph*.170}%
+\contentsline {paragraph}{A00: Introducción (+0,1)}{78}{paragraph*.171}%
+\contentsline {paragraph}{A01: Datos, información y jerarquía de datos (+0,1)}{79}{paragraph*.172}%
+\contentsline {paragraph}{A02: Relación entre datos e información (+0,2)}{79}{paragraph*.173}%
+\contentsline {paragraph}{A03: Jerarquía de datos (+0,2)}{79}{paragraph*.174}%
+\contentsline {paragraph}{A04: Concepto de hardware (RAM y CPU) (+0,1)}{80}{paragraph*.175}%
+\contentsline {paragraph}{A05: Utilidad del hardware (+0,2)}{81}{paragraph*.176}%
+\contentsline {paragraph}{A06: Concepto de software (+0,1)}{82}{paragraph*.177}%
+\contentsline {paragraph}{A07: Clasificación del software (+0,2)}{82}{paragraph*.178}%
+\contentsline {paragraph}{A08: Examen final (+4,0)}{83}{paragraph*.179}%
+\contentsline {subsubsection}{Guía 02: Diagramas de flujo}{84}{subsubsection*.180}%
+\contentsline {paragraph}{Mensaje del autor}{84}{paragraph*.181}%
+\contentsline {paragraph}{A00: Introducción (+0,3)}{85}{paragraph*.182}%
+\contentsline {paragraph}{A01: Diagramas de flujo (+0,7)}{85}{paragraph*.183}%
+\contentsline {paragraph}{A02: Orientaciones al extranjero (+1,0)}{85}{paragraph*.184}%
+\contentsline {paragraph}{A03: Orientaciones seguras (+3,0)}{87}{paragraph*.185}%
+\contentsline {subsubsection}{Guía 03: Desarrollo de algoritmos}{88}{subsubsection*.186}%
+\contentsline {paragraph}{Mensaje del autor}{88}{paragraph*.187}%
+\contentsline {paragraph}{A00: Introducción (+0,2)}{89}{paragraph*.188}%
+\contentsline {paragraph}{A01: ¿Qué son los algoritmos? (+0,2)}{89}{paragraph*.189}%
+\contentsline {paragraph}{A02: Tipos del algoritmos (+0,2)}{89}{paragraph*.190}%
+\contentsline {paragraph}{A03: Clasificación de algoritmos (+0,2)}{90}{paragraph*.191}%
+\contentsline {paragraph}{A04: Metodología para desarrollar un algoritmo (+0,2)}{91}{paragraph*.192}%
+\contentsline {paragraph}{A05: Algoritmos (+4,0)}{91}{paragraph*.193}%
+\contentsline {subsubsection}{Plan de refuerzo 01}{93}{subsubsection*.194}%
+\contentsline {paragraph}{Instrucción}{93}{paragraph*.195}%
+\contentsline {paragraph}{Hardware}{93}{paragraph*.196}%
+\contentsline {paragraph}{Software}{93}{paragraph*.197}%
+\contentsline {paragraph}{Información y datos}{93}{paragraph*.198}%
+\contentsline {paragraph}{Software Vs Programa}{94}{paragraph*.199}%
+\contentsline {subparagraph}{Software}{94}{subparagraph*.200}%
+\contentsline {subparagraph}{Programa}{94}{subparagraph*.201}%
+\contentsline {section}{\numberline {6.2}Recursos}{94}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Contenidos}{94}{subsection.6.2.1}%
+\contentsline {subsubsection}{T01: Conocimientos previos}{94}{subsubsection*.202}%
+\contentsline {paragraph}{Información y Datos}{94}{paragraph*.203}%
+\contentsline {subparagraph}{Datos}{94}{subparagraph*.205}%
+\contentsline {subparagraph}{Información}{95}{subparagraph*.206}%
+\contentsline {paragraph}{Valores cuantitativos y cualitativos}{95}{paragraph*.207}%
+\contentsline {paragraph}{Jerarquía de datos}{95}{paragraph*.208}%
+\contentsline {paragraph}{Hardware}{96}{paragraph*.210}%
+\contentsline {subparagraph}{La memoria RAM (acceso rápido a los datos)}{96}{subparagraph*.211}%
+\contentsline {subparagraph}{La CPU (procesa los datos)}{96}{subparagraph*.212}%
+\contentsline {paragraph}{Software}{97}{paragraph*.213}%
+\contentsline {paragraph}{Software Vs Programa}{97}{paragraph*.214}%
+\contentsline {subsubsection}{T02: Diagramas de flujo}{97}{subsubsection*.215}%
+\contentsline {paragraph}{Operación}{98}{paragraph*.217}%
+\contentsline {paragraph}{Límites de proceso}{98}{paragraph*.218}%
+\contentsline {paragraph}{Punto de decisión}{99}{paragraph*.219}%
+\contentsline {paragraph}{Conector}{99}{paragraph*.220}%
+\contentsline {paragraph}{Dirección de flujo}{99}{paragraph*.221}%
+\contentsline {paragraph}{Entrada manual}{100}{paragraph*.222}%
+\contentsline {paragraph}{Documento}{100}{paragraph*.223}%
+\contentsline {paragraph}{Base de datos}{100}{paragraph*.224}%
+\contentsline {subsubsection}{T03: Algoritmos}{100}{subsubsection*.225}%
+\contentsline {paragraph}{Tipos de algoritmos}{101}{paragraph*.227}%
+\contentsline {subparagraph}{Algoritmos cualitativos (informales)}{101}{subparagraph*.228}%
+\contentsline {subparagraph}{Algoritmos cuantitativos (formales)}{101}{subparagraph*.229}%
+\contentsline {paragraph}{Metodología para desarrollar un algoritmo}{101}{paragraph*.230}%
+\contentsline {paragraph}{Algoritmo para ir al colegio (ejemplo)}{102}{paragraph*.231}%
+\contentsline {subparagraph}{FASE 01: Análisis de requisitos}{102}{subparagraph*.232}%
+\contentsline {subparagraph}{FASE 02: Diseño del algoritmo}{103}{subparagraph*.233}%
+\contentsline {subparagraph}{FASE 03: Construcción del algoritmo}{103}{subparagraph*.234}%
+\contentsline {chapter}{\numberline {7}Referencias}{105}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Descargas}{109}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Institucional}{109}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Proyecto de grado}{109}{section.8.2}%

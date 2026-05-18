@@ -23,20 +23,17 @@
     ```
 :::
 
-:::{admonition} MODELO PEDAGÓGICO: Activo
-:class: seealso
-Fórmula secuencia didáctica:
-
-$$
-f(x)=transferencia(actividadPractica(estructuracion(exploracion)))
-$$
-
-:::
-
 ::: {admonition} PRINCIPIOS DE LA CLASE
 1. "Se aprende haciendo".
 2. "Se aprende enseñando".
 3. "Todo se sustenta".
+:::
+
+::: {admonition} SECUENCIA DIDÁCTICA (MODELO ACTIVO)
+1. Exploración.
+2. Estructuración.
+3. Actividad práctica.
+4. Transferencia.
 :::
 
 :::{toctree}

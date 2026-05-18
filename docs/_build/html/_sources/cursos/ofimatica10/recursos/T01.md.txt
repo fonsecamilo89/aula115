@@ -1,6 +1,6 @@
 # T01: Introducción a la Ofimática
 
-A continuación se explican los conceptos de ofimática y software libre.
+A continuación se explica el concepto de ofimática.
 
 ---
 ## ¿Qué es la ofimática?

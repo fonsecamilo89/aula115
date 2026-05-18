@@ -11,8 +11,7 @@
     * - **ASIGNATURA**: Tecnología e Informática
     * - **GRADO**: DÉCIMO
     * - **TIEMPO**: 10 semanas (2 horas / semana)
-    * - **TOTAL**: 20 horas
-    * - **TIEMPO DE TRABAJO**: 20 horas
+    * - **TIEMPO DE TRABAJO**: 20/20 horas
     ```
 :::
 
